@@ -14,10 +14,11 @@ module.exports = {
       },
       backgroundColor: (theme) => ({
         primary: "#626262",
-        secondary:"#21C298"
+        secondary:"#21C288"
       }),
       textColor:{
-        green: "#21C298"
+        main:"#292929",
+        green: "#21C288"
       }
     },
   },
