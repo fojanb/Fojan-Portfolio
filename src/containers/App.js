@@ -21,7 +21,7 @@ function App() {
         alt="Cross Lines"
         className="absolute -left-14 bottom-72 w-30"
       />
-      <article className="text-gray-300 italic absolute top-40 text-2xl	left-36 font-bold">
+      <article className="border-2 border-opacity-50 text-gray-300 italic absolute top-40 text-2xl	left-36 font-bold p-2">
         “Your first 10,000 photographs are your worst.”<br/>
          <span className="text-sm	">-H.Bresson</span>
       </article>
