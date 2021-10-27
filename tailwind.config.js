@@ -14,11 +14,25 @@ module.exports = {
       },
       backgroundColor: (theme) => ({
         primary: "#626262",
-        secondary:"#21C288"
+        secondary:"#8338ec"
       }),
       textColor:{
         main:"#292929",
-        green: "#21C288"
+        violet: "#8338ec"
+      },
+      screens: {
+        'xl': {'max': '1200px'},
+        // => @media (max-width: 1200px) { ... }
+  
+        'lg': {'max': '960px'},
+        // => @media (max-width: 960pxpx) { ... }
+  
+        'md': {'max': '768px'},
+        // => @media (max-width: 768px) { ... }
+  
+        'sm': {'max': '560px'},
+        // => @media (max-width: 560px) { ... }
+  
       }
     },
   },
