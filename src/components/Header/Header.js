@@ -8,7 +8,7 @@ const Header = () => {
       <div className="inline-block absolute top-8 left-36 -mt-2">
         <img src={circle} alt="" className="w-16 h-16" />
       </div>
-      <div className="flex-row absolute right-0 w-2/4 justify-center xl:right-40 w-96">
+      <div className="flex-row absolute right-0 w-2/4 justify-center xl:right-4 w-96">
         <button className="inline-block m-8 text-gray-300 font-bold text-base	bg-primary px-4 py-1 xl:m-4">
           Submit
         </button>
