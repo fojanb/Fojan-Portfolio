@@ -2,17 +2,17 @@ import React from "react";
 import { FaRegCopyright } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="flex-row w-full h-12 absolute bottom-1 text-gray-400 justify-center items-center text-sm xl:w-screen">
-      <div className="inline-block ml-36 absolute xl:text-xs xl:ml-18 xl:mr-20">
+    <div className="flex-row bg-gray-500 w-full h-20 absolute bottom-1 text-gray-400 justify-center items-center text-xs lg:w-1/2 lg:left-72 lg:grid-cols-1">
+      <div className="inline-block ml-40">
         <FaRegCopyright className="inline-block pb-1" />
-        2021-All Rights Reserved
+        <span>2021-All Rights Reserved</span>
       </div>
-      <div className="inline-block ml-96 absolute right-44 xl:right-24 xl:text-xs lg:ml-1">
-        <div className="inline-block ml-8">Legal Disclaimer</div>
-        <div className="inline-block ml-8">Terms & Conditions</div>
-        <div className="inline-block ml-8">How to Submit?</div>
-        <div className="inline-block ml-8">FAQ</div>
-        <div className="inline-block ml-8">Press</div>
+      <div className="inline-block ml-96 absolute right-44 xl:right-24 lg:ml-1">
+        <div className="inline-block ml-2">Legal Disclaimer</div>
+        <div className="inline-block ml-2">Terms & Conditions</div>
+        <div className="inline-block ml-2">How to Submit?</div>
+        <div className="inline-block ml-2">FAQ</div>
+        <div className="inline-block ml-2">Press</div>
       </div>
     </div>
   );
