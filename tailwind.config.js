@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('./assets/Hero.png')",
+        hero: "url('./assets/hero.png')",
       },
       zIndex: {
         "-1": "-1",
       },
       gridTemplateColumns: {
-        Header: "repeat(6, 40px)",
+        Header: "repeat(4, 100px)",
       },
       backgroundColor: (theme) => ({
         primary: "#626262",
