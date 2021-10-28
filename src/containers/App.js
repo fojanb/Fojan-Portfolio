@@ -31,7 +31,7 @@ function App() {
         <img
           src={camera}
           alt="Camera Icon"
-          className="absolute left-96 ml-40 -bottom-24 w-96"
+          className="absolute left-96 ml-40 -bottom-24 w-96 camera:hidden"
         />
       </div>
       <div className="text-base text-gray-300 absolute left-36 top-96">

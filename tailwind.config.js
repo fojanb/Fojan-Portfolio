@@ -23,10 +23,12 @@ module.exports = {
       screens: {
         'xl': {'max': '1200px'},
         // => @media (max-width: 1200px) { ... }
-  
-        'lg': {'max': '960px'},
-        // => @media (max-width: 960pxpx) { ... }
-  
+        'camera': {'max': '1155px'},
+
+        'lg': {'max': '916px'},
+        // => @media (max-width: 960px) { ... }
+        'lgg': {'max': '899px'},
+
         'md': {'max': '768px'},
         // => @media (max-width: 768px) { ... }
   
