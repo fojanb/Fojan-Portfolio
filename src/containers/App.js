@@ -8,13 +8,13 @@ function App() {
   return (
     <div>
       <Header/>
-      <div className="text-gray-300 absolute right-48 bottom-96 -mb-10">
+      <div className="text-gray-300 absolute right-48 bottom-96 -mb-10 camera:right-20 camera:-mb-16">
         21 April 2021
       </div>
       <img
         src={ArrowRight}
         alt="Arrow Right"
-        className="absolute right-0 bottom-72 w-72"
+        className="absolute right-0 bottom-72 w-72 camera:w-44"
       />
       <img
         src={cross}
@@ -24,14 +24,14 @@ function App() {
       <article className="border-b-2 border-opacity-50 text-gray-300 italic absolute top-40 text-2xl	left-36 font-bold p-4 -ml-3">
         “Your first 10,000 photographs are your worst.”
         <br />
-        <span className="text-sm	">-H.Bresson</span>
+        <span className="text-sm">-H.Bresson</span>
       </article>
       <div className="text-5xl text-gray-300 absolute left-36 top-80 font-bold">
         <span className="inline-block">FOJAN</span>
         <img
           src={camera}
           alt="Camera Icon"
-          className="absolute left-96 ml-40 -bottom-24 w-96 camera:hidden"
+          className="absolute left-96 ml-40 -bottom-24 w-96 camera:w-40 camera:-bottom-28 remove:hidden"
         />
       </div>
       <div className="text-base text-gray-300 absolute left-36 top-96">

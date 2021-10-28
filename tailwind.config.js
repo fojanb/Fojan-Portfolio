@@ -24,6 +24,7 @@ module.exports = {
         'xl': {'max': '1200px'},
         // => @media (max-width: 1200px) { ... }
         'camera': {'max': '1155px'},
+        'remove': {'max': '1038px'},
 
         'lg': {'max': '916px'},
         // => @media (max-width: 960px) { ... }
