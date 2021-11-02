@@ -1,9 +1,8 @@
 import React from "react";
 import circle from "../../assets/circle.png";
-import Blob from "../Blob/Blob";
 const Header = () => {
   return (
-    <div className="grid grid-rows-1 grid-cols-6 justify-center items-center w-1/2 p-14 text-gray-100">
+    <div className="grid grid-rows-1 grid-cols-5 justify-center items-center w-1/2 p-14 text-gray-100">
       <div className="flex justify-center items-center">
         <img src={circle} alt="Story" className="w-12 h-12" />
       </div>
@@ -20,9 +19,6 @@ const Header = () => {
       </div>
       <div className="flex justify-center items-center font-bold text-base">
         Contact
-      </div>
-      <div>
-        <Blob/>
       </div>
     </div>
   );
