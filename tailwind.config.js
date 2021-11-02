@@ -21,21 +21,9 @@ module.exports = {
         violet: "#8338ec"
       },
       screens: {
-        'xl': {'max': '1200px'},
+        'mini': {'max': '560px'},
         // => @media (max-width: 1200px) { ... }
-        'camera': {'max': '1155px'},
-        'remove': {'max': '1038px'},
-
-        'lg': {'max': '916px'},
-        // => @media (max-width: 960px) { ... }
-        'lgg': {'max': '899px'},
-
-        'md': {'max': '768px'},
-        // => @media (max-width: 768px) { ... }
-  
-        'sm': {'max': '560px'},
-        // => @media (max-width: 560px) { ... }
-        'smm': {'max': '780px'},
+     
 
       }
     },

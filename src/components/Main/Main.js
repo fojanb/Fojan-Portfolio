@@ -1,42 +1,29 @@
 import React from "react";
-import ArrowRight from "../../assets/arrRight.png";
-// import camera from "../../assets/camera.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
 const Main = () => {
   return (
-    <>
-      <div className="text-gray-300 absolute right-48 bottom-96 -mb-10 camera:right-20 camera:-mb-16">
-        21 April 2021
+    <div className="grid grid-rows-2 grid-cols-1 justify-center items-center p-14">
+      <div className="felx text-5xl text-gray-100 font-bold">
+        <div className="flex-cols h-24 italic text-2xl ">
+          <p>“Your first 10,000 photographs are your worst.”</p>
+          <span className="text-sm">-H.Bresson</span>
+          <hr className="w-60"/>
+        </div>
+        <h1 className="mt-5">FOJAN</h1>
+        <div className="flex text-base text-gray-100">
+          <FaMapMarkerAlt className="mt-4" />
+          <span className="italic mt-4">Vancouver, CA</span>
+        </div>
       </div>
-      <img
-        src={ArrowRight}
-        alt="Arrow Right"
-        className="absolute right-0 bottom-72 w-72 camera:w-44"
-      />
-      <article className="border-b-2 border-opacity-50 text-gray-300 italic absolute top-40 text-2xl left-36 p-4 -ml-3 lg:left-24">
-        “Your first 10,000 photographs are your worst.”
-        <br />
-        <span className="text-sm">-H.Bresson</span>
-      </article>
-      <div className="text-5xl text-gray-300 absolute left-36 top-80 font-bold lg:left-24">
-        <h1 className="inline-block lg:text-4xl">FOJAN</h1>
-        {/* <img
-          src={camera}
-          alt="Camera Icon"
-          className="absolute left-96 ml-40 -bottom-9 w-96 camera:w-32 camera:-bottom-15 remove:hidden"
-        /> */}
+      <div className="flex items-start text-gray-100">
+        <button className="bg-secondary font-bold border text-xl px-10 py-2">
+          Join
+        </button>
+        <button className="font-bold text-xl border px-4 py-2 ml-10">
+          Subscribe
+        </button>
       </div>
-      <div className="text-base text-gray-300 absolute left-36 top-96 lg:left-24">
-        <FaMapMarkerAlt className="inline-block mb-2" />
-        <span className="italic lg:text-sm">Vancouver, CA</span>
-      </div>
-      <button className="bg-secondary text-gray-300 font-bold text-2xl px-8 py-2 absolute left-32 top-80 mt-40 lg:w-32 lg:text-sm lg:left-24">
-        Join Me
-      </button>
-      <button className="text-gray-300 font-bold text-2xl px-8 py-1.5 absolute left-64 top-80 mt-40 ml-10 border lg:w-32 lg:text-sm lg:ml-4 lg:left-60">
-        Subscribe
-      </button>
-    </>
+    </div>
   );
 };
 
