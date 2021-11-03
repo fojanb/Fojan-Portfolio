@@ -17,7 +17,7 @@ const About = () => {
           of technical dedication, geometric symmetry and creative exuberance.<br/><br/>
           The main goal of her work is produce images that reflect the majesty
           and wonder of the human experience. Though her attention to technical
-          detail and inexhaustible energy while shooting, Tom Hawkins delivers
+          detail and inexhaustible energy while shooting, Sarah Nilson delivers
           fresh and modern images that enable her clients to sell products.
         </p>
       </div>

@@ -6,7 +6,10 @@ module.exports = {
       backgroundImage: {
         hero: "url('./assets/hero.png')",
         blob1 : "url('./assets/blob1.png')",
-        blob2 : "url('./assets/blob2.png')"
+        blob2 : "url('./assets/blob2.png')",
+        blob3 : "url('./assets/blob3.png')",
+        blob4 : "url('./assets/blob4.png')"
+
       },
       zIndex: {
         "-1": "-1",
@@ -18,7 +21,7 @@ module.exports = {
         primary: "#626262",
         secondary:"#8338ec",
         light : "#8A3FFC",
-        ruby:"#B51010",
+        ruby:"#21C292",
       }),
       textColor:{
         main:"#292929",
