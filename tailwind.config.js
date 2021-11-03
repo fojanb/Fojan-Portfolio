@@ -21,7 +21,7 @@ module.exports = {
         primary: "#626262",
         secondary:"#8338ec",
         light : "#8A3FFC",
-        ruby:"#21C292",
+        ruby:"#C22121",
       }),
       textColor:{
         main:"#292929",
