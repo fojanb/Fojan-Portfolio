@@ -14,11 +14,13 @@ module.exports = {
       },
       backgroundColor: (theme) => ({
         primary: "#626262",
-        secondary:"#8338ec"
+        secondary:"#8338ec",
+        light : "#8A3FFC",
+        ruby:"#B51010",
       }),
       textColor:{
         main:"#292929",
-        violet: "#8338ec"
+        violet: "#8338ec",
       },
       screens: {
         'mini': {'max': '560px'},
