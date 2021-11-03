@@ -13,7 +13,7 @@ const Gallery = () => {
   return (
     <div>
       <hr className="w-5/6 m-auto opacity-40" />
-      <p className="bg-blob3 bg-contain bg-center bg-no-repeat flex text-left items-center justify-center text-gray-100 font-bold text-3xl py-8">Gallery</p>
+      <p className="flex text-left items-center justify-center text-gray-100 font-bold text-3xl py-8">Gallery</p>
       <div className="grid grid-rows-3 grid-cols-3 gap-10 text-gray-100 w-1/2 m-auto py-8">
         <div className="flex">
           <img src={img1} alt="" />

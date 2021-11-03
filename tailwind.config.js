@@ -28,10 +28,10 @@ module.exports = {
         violet: "#8338ec",
       },
       screens: {
-        'mini': {'max': '560px'},
+        'lg': {'max': '1200px'},
         // => @media (max-width: 1200px) { ... }
-     
-
+        'md': {'max': '768px'},
+        'sm': {'max': '480px'},
       }
     },
   },

@@ -11,10 +11,10 @@ const Main = () => {
         </div>
       </div>
       <div className="flex items-start text-gray-100">
-        <button className="bg-ruby font-bold border text-xl px-10 py-2">
+        <button className="bg-ruby font-bold border text-xl px-10 py-2 rounded">
           Join
         </button>
-        <button className="font-bold text-xl border px-4 py-2 ml-10">
+        <button className="font-bold text-xl border px-4 py-2 ml-10 rounded">
           Subscribe
         </button>
       </div>
