@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('./assets/hero.png')",
+        blob1 : "url('./assets/blob1.png')",
+        blob2 : "url('./assets/blob2.png')"
       },
       zIndex: {
         "-1": "-1",

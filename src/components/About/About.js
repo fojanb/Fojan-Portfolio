@@ -5,7 +5,7 @@ const About = () => {
     <div>
       <hr className="w-5/6 m-auto opacity-40" />
       <div className="grid grid-rows-1 grid-cols-2 text-gray-100 w-5/6 m-auto py-8">
-        <p className="flex justify-center items-center text-center text-gray-100 font-bold text-3xl">
+        <p className="bg-blob2 bg-contain bg-center bg-no-repeat flex justify-center items-center text-center text-gray-100 font-bold text-3xl">
           About Sarah
         </p>
 

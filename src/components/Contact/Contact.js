@@ -13,7 +13,7 @@ const Contact = () => {
           <textarea className="flex w-96 pl-4 pt-2" placeholder="Message" />
           <button type="submit" className="flex bg-ruby text-gray-100 text-center items-center justify-center font-bold border text-md w-20 h-10 m-auto">Send</button>
         </form>
-        <p className="flex text-left items-center justify-center text-gray-100 font-bold text-3xl">Book Your Appointment</p>
+        <p className="bg-blob1 bg-contain bg-center bg-no-repeat flex text-left items-center justify-center text-gray-100 font-bold text-3xl">Book Your Appointment</p>
       </div>
     </div>
   );
