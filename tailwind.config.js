@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('./assets/hero.png')",
+        md: "url('./assets/hero-md.png')",
+        galaxy: "url('./assets/galaxy.png')",
+        sm: "url('./assets/hero-sm.png')",
         blob1: "url('./assets/blob1.png')",
         blob2: "url('./assets/blob2.png')",
         blob3: "url('./assets/blob3.png')",
