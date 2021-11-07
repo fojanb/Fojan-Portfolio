@@ -5,7 +5,7 @@ import App from "./containers/App";
 import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
-    <div className="bg-hero bg-cover bg-center bg-fixed bg-no-repeat bg-gray-900  galaxy:bg-sm sm:overflow-x-hidden sm:bg-sm">
+    <div className="bg-hero bg-cover bg-center bg-fixed bg-no-repeat galaxy:bg-sm sm:overflow-x-hidden sm:bg-sm">
       <App />
     </div>
   </React.StrictMode>,
