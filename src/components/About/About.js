@@ -20,7 +20,7 @@ const About = () => {
           The main goal of her work is produce images that reflect the majesty
           and wonder of the human experience. Though her attention to technical
           detail and inexhaustible energy while shooting, Fojan Babaali delivers
-          fresh and modern images that enable her clients to sell products.lk
+          fresh and modern images that enable her clients to sell products.
         </p>
       </div>
     </div>
