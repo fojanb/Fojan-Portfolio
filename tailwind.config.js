@@ -11,6 +11,8 @@ module.exports = {
         blob1: "url('./assets/blob1.png')",
         blob2: "url('./assets/blob2.png')",
         blob3: "url('./assets/blob3.png')",
+        blob4: "url('./assets/blob4.png')",
+
       },
       zIndex: {
         "-1": "-1",

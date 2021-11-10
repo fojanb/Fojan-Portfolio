@@ -8,9 +8,9 @@ const Contact = () => {
         <p className="bg-blob3 bg-contain bg-center bg-no-repeat flex items-center justify-center text-gray-100 font-bold text-3xl sm:bg-red-500 sm:bg-opacity-20 sm:rounded-2xl sm:p-2 sm:text-sm sm:bg-none md:bg-red-500 md:bg-opacity-20 md:rounded-2xl md:p-2 md:text-xl md:bg-none">
           Contact Fojan
         </p>
-        <p className="flex justify-center items-center text-left py-10">
+        <p className="flex justify-center items-center text-left py-4">
           For questions relating/regarding pre-sale, cooperation and general
-          issues please reach out info@fojanbabaali.ca
+          issues please reach out fojanbabaali@gmail.com
         </p>
       </div>
     </div>
