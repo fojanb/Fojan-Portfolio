@@ -12,7 +12,6 @@ module.exports = {
         blob2: "url('./assets/blob2.png')",
         blob3: "url('./assets/blob3.png')",
         blob4: "url('./assets/blob4.png')",
-
       },
       zIndex: {
         "-1": "-1",
@@ -29,6 +28,7 @@ module.exports = {
       textColor: {
         main: "#292929",
         violet: "#8338ec",
+        ruby: "#C22121",
       },
       screens: {
         lg: { max: "1200px" },

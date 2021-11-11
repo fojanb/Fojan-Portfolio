@@ -1,5 +1,8 @@
 import React from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
+const joinHandler = () =>{
+  console.log("Link to the join page")
+}
 const Main = () => {
   return (
     <div className="grid grid-rows-2 grid-cols-1 justify-center items-center m-auto px-28 md:px-14 sm:px-8 sm:m-auto">
@@ -11,7 +14,7 @@ const Main = () => {
         </div>
       </div>
       <div className="flex flex-row flex-wrap text-gray-100 w-72 justify-between m-auto md:justify-evenly galaxy:justify-evenly sm:justify-evenly sm:w-40">
-        <button className="bg-ruby font-bold border rounded text-xl px-10 py-2 sm:text-sm sm:w-40 sm:h-10 sm:mb-5">
+        <button onClick={joinHandler} className="bg-ruby font-bold border rounded text-xl px-10 py-2 sm:text-sm sm:w-40 sm:h-10 sm:mb-5">
           Join
         </button>
         <button className="font-bold text-xl border rounded px-4 py-2 text-center sm:text-sm sm:w-40 sm:h-10">
