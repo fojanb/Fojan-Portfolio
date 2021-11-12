@@ -11,28 +11,27 @@ function App() {
     <div>
       <Header />
       <Main />
-      <About />
-      <Appointment />
-      <Gallery />
-      <Contact />
-      <Switch>
-        <Route path="/main">
-          <Main />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/appointment">
-          <Appointment />
-        </Route>
-        <Route path="/gallery">
-          <Gallery />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
+      <div>
+        <Switch>
+          <Route path="/main">
+            <Main />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/appointment">
+            <Appointment />
+          </Route>
+          <Route path="/gallery">
+            <Gallery />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </div>
       <Footer />
+
     </div>
   );
 }
