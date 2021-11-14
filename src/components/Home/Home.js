@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaMapMarkerAlt } from "react-icons/fa";
 const joinHandler = () => {
   console.log("Link to the join page");
@@ -16,13 +17,14 @@ const Home = () => {
         </div>
       </div>
       <div className="flex flex-row flex-wrap text-gray-100 w-72 justify-between m-auto md:justify-evenly galaxy:justify-evenly sm:justify-evenly sm:w-40">
-        <button
-          onClick={joinHandler}
-          className="bg-ruby font-bold border rounded text-xl px-10 py-2 transform hover:scale-110 hover:transition duration-500 ease-in-out sm:text-sm sm:w-40 sm:h-10 sm:mb-5"
-        >
-          Join
-        </button>
-
+        <Link to="/home/join">
+          <button
+            onClick={joinHandler}
+            className="bg-ruby font-bold border rounded text-xl px-10 py-2 transform hover:scale-110 hover:transition duration-500 ease-in-out sm:text-sm sm:w-40 sm:h-10 sm:mb-5"
+          >
+            Join
+          </button>
+        </Link>
         <button className="font-bold text-xl border rounded px-4 py-2 text-center transform hover:scale-110 hover:transition duration-500 ease-in-out sm:text-sm sm:w-40 sm:h-10">
           Subscribe
         </button>

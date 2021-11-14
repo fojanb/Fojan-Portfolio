@@ -9,7 +9,7 @@ const About = () => {
           About Fojan
         </p>
 
-        <p className="flex justify-center items-center text-left">
+        <p className="flex justify-center items-center text-left sm:mb-40 md:mb-40 galaxy:mb-40">
           Fojan is a premier professional photographer located in Vancouver BC
           Canada and abroad. Her technical skills matched with vibrant energy
           and creative intuition enable him to create stunning visual images.
