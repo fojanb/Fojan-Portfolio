@@ -1,9 +1,9 @@
-## Landing Page
+# Landing Page
 
 A standalone web page that potential customers can “land” on when they click through from an email, ad, or other digital location. A landing page aims to capture information from contacts in exchange for something of value, such as a retail offer code or business-to-business (B2B) insights in the form of a white paper. Landing pages are different from other web pages in that they don’t live in the evergreen navigation of a website. They serve a specific purpose in a specific moment of an advertising campaign to a target audience.
 A website’s homepage usually provides a general overview of a business. But if you have a specific, short-term goal, a landing page is a valuable online marketing channel that can help you reach that goal in the buyers journey.
 
-## What is a landing page?
+# What is a landing page?
 
 A landing page is a standalone web page that a person "lands" on after clicking through from an email, ad, or other digital location.
 
@@ -19,7 +19,7 @@ On the extreme end, too many choices can overwhelm your users, causing them to s
 
 This is why a landing page should have a clear visual hierarchy and value proposition, and should be tested for the best conversion optimization
 
-## What makes a homepage different from a landing page?
+# What makes a homepage different from a landing page?
 
 There are a handful of things that set homepages and landing pages apart. Homepages have:
 
@@ -30,7 +30,7 @@ A different audience and purpose. Many of the people who visit your homepage pro
 Landing pages aren’t all the same. 
 They can be sorted into 2 broad categories.
 
-## The 2 main types of landing pages
+# The 2 main types of landing pages
 As far as structure goes, landing pages are generally built to serve 1 of 2 functions: generate leads or direct users to the next step.
 
 ### Lead generation landing pages
@@ -51,7 +51,7 @@ For example, a button that says "schedule a demo" might take the user to a sched
 
 You’ll often find click-through landing pages on e-commerce websites or other sites that are more focused on making sales immediately rather than collecting user information. Besides the CTA button, these landing pages generally include persuasive information like product details or user testimonials to further intrigue and engage prospective customers.
 
-## The importance and benefits of a landing page
+# The importance and benefits of a landing page
 
 Landing pages are different from other pages on your site because they focus on specific, short-term goals so that you can get the results you want. Besides increasing conversions, improving paid ad campaigns, and yielding new audience insights, landing pages can:
 
@@ -61,7 +61,7 @@ Reinforce your brand. This is the result of maintaining consistency in your webs
 
 Clearly, landing pages are essential to your marketing strategy. And the more optimized landing pages you have, the better. But that raises 2 questions: how should they be optimized, and what should they be optimized for?
 
-## 16 landing page best practices
+# 16 landing page best practices
 Of course you want your landing pages to be well-oiled conversion machines. But it's also important that you design them for search engines, a practice known as search engine optimization (SEO). This will make your pages more visible in organic search results, which can help increase traffic and conversions.
 
 Building SEO-friendly landing pages
