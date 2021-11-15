@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="bg-red-500 bg-opacity-20">
+    <div className="bg-grey bg-opacity-0 sm:bg-grey sm:bg-opacity-40">
       <div
         id="navbar"
         className="grid grid-rows-1 grid-cols-4 justify-center text-lg items-center py-8 w-1/2 text-gray-100 m-auto lg:w-3/4 md:w-3/4 sm:grid-cols-1 sm:gap-4 sm:pb-10"

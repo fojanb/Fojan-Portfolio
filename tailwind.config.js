@@ -21,13 +21,14 @@ module.exports = {
       },
       backgroundColor: (theme) => ({
         primary: "#626262",
-        secondary: "#8338ec",
+        secondary: "#663399",
         light: "#8A3FFC",
         ruby: "#C22121",
+        grey: "#242424"
       }),
       textColor: {
         main: "#292929",
-        violet: "#8338ec",
+        violet: "#663399",
         ruby: "#C22121",
       },
       screens: {
