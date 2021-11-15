@@ -1,4 +1,5 @@
 import NavBar from "../components/NavBar/NavBar";
+import SideInfo from "../components/SideInfo/SideInfo";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
 import Appointment from "../components/Appointment/Appointment";
@@ -13,6 +14,7 @@ function App() {
   return (
     <Router>
       <NavBar />
+      <SideInfo/>
       {/* ---Our routers include these components and we can Link to them from other components--- */}
       <Switch>
         <Route path="/" exact component={Home} />
