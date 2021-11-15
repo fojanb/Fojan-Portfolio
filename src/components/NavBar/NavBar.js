@@ -16,13 +16,13 @@ const NavBar = () => {
         </Link>
         <Link
           to="/about"
-          className="flex justify-center items-center font-bold text-lg transform hover:scale-110 hover:transition duration-500 ease-in-out sm:text-l"
+          className="flex justify-center items-center font-bold text-lg transform hover:scale-110 hover:transition border-l border-r duration-500 ease-in-out sm:text-l sm:border-none"
         >
           About
         </Link>
         <Link
           to="/gallery"
-          className="flex justify-center items-center font-bold text-lg transform hover:scale-110 hover:transition duration-500 ease-in-out sm:text-l"
+          className="flex justify-center items-center font-bold text-lg transform hover:scale-110 border-r hover:transition duration-500 ease-in-out sm:text-l sm:border-none"
         >
           Gallery
         </Link>
