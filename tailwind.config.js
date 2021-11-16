@@ -38,6 +38,9 @@ module.exports = {
         galaxy: { max: "540px" },
         sm: { max: "480px" },
       },
+      borderColor: theme => ({
+        'primary': '#663399',
+       })
     },
   },
   variants: {
