@@ -4,7 +4,7 @@ const SvgImg = () => {
   return (
     <svg
       width="1518"
-      height="500"
+      height="400"
       viewBox="0 0 1518 500"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

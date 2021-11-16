@@ -7,7 +7,7 @@ const Gallery = () => {
       </p>
       <div className="grid grid-rows-1 grid-cols-3 gap-8 text-gray-100 w-1/2 m-auto py-8 lg:w-3/4 md:grid-cols-1 md:w-1/2 galaxy:w-1/2 sm:grid-cols-1 sm:gap-4">
         <div className="flex items-center justify-center">
-          <div className="bg-indigo-900 w-60 h-auto text-left p-4">
+          <div className="bg-indigo-900 w-60 h-auto text-left p-4 rounded-xl animate-pulse">
             <header className="font-bold text-lg p-4 border-b-2 border-opacity-30">
               Project-1
             </header>
@@ -18,7 +18,7 @@ const Gallery = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="bg-indigo-900 w-60 h-auto text-left p-4">
+          <div className="bg-indigo-900 w-60 h-auto text-left p-4 rounded-xl animate-pulse">
             <header className="font-bold text-lg p-4 border-b-2 border-opacity-30">
               Project-2
             </header>
@@ -29,7 +29,7 @@ const Gallery = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="bg-indigo-900 w-60 h-auto text-left p-4">
+          <div className="bg-indigo-900 w-60 h-auto text-left p-4 rounded-xl animate-pulse">
             <header className="font-bold text-lg p-4 border-b-2 border-opacity-30">
               Project-3
             </header>
