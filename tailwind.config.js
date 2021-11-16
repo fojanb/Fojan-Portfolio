@@ -14,7 +14,7 @@ module.exports = {
         blob4: "url('./assets/blob4.png')",
       },
       zIndex: {
-        "-1": "-1",
+        "-100": "-100",
       },
       gridTemplateColumns: {
         Header: "repeat(4, 100px)",
