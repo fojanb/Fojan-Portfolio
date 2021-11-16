@@ -8,7 +8,7 @@ const responseGoogle = (response) => {
 const SSO = () => {
   return (
     <div className="grid grid-rows-1 grid-cols-2 w-2/6 justify-center gap-10 items-center text-center m-auto m-0 mt-36">
-      <p className="bg-blob1 bg-contain bg-center bg-no-repeat flex text-gray-100 font-bold text-xl text-center justify-center items-center p-12">Login with Google</p>
+      <p className="bg-blob1 bg-contain bg-center bg-no-repeat flex text-gray-300 font-bold text-xl text-center justify-center items-center p-12">Login with Google</p>
       <GoogleLogin
         clientId="608613478109-td6sqllrd930dpeoigpt4ei16taf0dbe.apps.googleusercontent.com"
         buttonText="Sign in with Google"

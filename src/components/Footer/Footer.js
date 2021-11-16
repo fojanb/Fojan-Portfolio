@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="grid grid-rows-2 grid-cols-4 justify-center text-center items-center m-0 m-auto max-h-screen absolute bottom-0 py-10 w-full text-gray-300 bg-grey bg-opacity-10 sm:grid-cols-1 sm:py-4 sm:text-md ">
+    <div className="grid grid-rows-1 grid-cols-5 justify-center text-center items-center m-0 m-auto h-20 absolute bottom-0 left-20 py-10 w-96 text-gray-600 sm:w-48 sm:grid-cols-1 sm:py-4 sm:text-md md:m-0 md:m-auto md:grid-cols-2 ">
       <div className="flex justify-center items-center text-center ">
         Socials
       </div>
@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="flex justify-center items-center text-center">
         Contact
       </div>
-      <div className="flex justify-between items-center text-center w-32 text-gray-300">
+      <div className="flex justify-between items-center text-center w-32 text-gray-600 ml-8">
         <FaFacebook />
         <FaTwitter />
         <FaInstagram />
