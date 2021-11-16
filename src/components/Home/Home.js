@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div className="grid grid-rows-2 grid-cols-1 justify-center items-center m-auto px-28 md:px-14 sm:px-8 sm:m-auto">
       <div className="flex flex-col text-5xl text-gray-100 font-bold pt-24 lg:text-4xl md:text-3xl md:pt-14 galaxy:text-3xl sm:text-xl sm:m-auto sm:justify-center sm:items-center">
-        <h1 className="m-auto sm:text-2xl sm:text-center">FOJAN BABAALI</h1>
+        <h1 className="m-auto z-20 sm:text-2xl sm:text-center">FOJAN BABAALI</h1>
         <div className="flex m-auto text-base text-gray-100">
           <FaMapMarkerAlt className="m-auto mt-5 sm:text-xs" />
-          <span className="italic m-auto mt-4 mb-8 sm:text-sm">
+          <span className="italic m-auto mt-4 mb-8 z-20 sm:text-sm">
             Vancouver, CA
           </span>
         </div>
