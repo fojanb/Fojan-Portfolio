@@ -3,7 +3,7 @@ import SideInfo from "../components/SideInfo/SideInfo";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
 import Appointment from "../components/Appointment/Appointment";
-import Gallery from "../components/Gallery/Gallery";
+import Works from "../components/Works/Works";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import Join from "../components/Join/Join";
@@ -21,7 +21,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/appointment" component={Appointment} />
-        <Route path="/gallery" component={Gallery} />
+        <Route path="/works" component={Works} />
         <Route path="/contact" component={Contact} />
         <Route path="/home/join" component={Join} />
         <Route path="/google-login" component={SSO} />

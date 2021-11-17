@@ -25,7 +25,7 @@ const NavBar = () => {
           About
         </Link>
         <Link
-          to="/gallery"
+          to="/works"
           className="flex justify-center items-center font-normal text-lg transform hover:scale-110 border-r border-opacity-30 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l sm:border-none"
         >
           Works

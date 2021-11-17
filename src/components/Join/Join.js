@@ -2,7 +2,7 @@ import React from 'react'
 
 const Join = () => {
     return (
-        <form action="" className="grid grid-cols-1 m-auto w-auto mt-10 gap-6 rounded p-8 lg:mt-8 sm:gap-4 md:gap-4 sm:mt-10 sm:mb-10">
+        <form action="" className="grid grid-cols-1 m-auto w-auto mt-10 mb-20 gap-6 rounded p-8 relative z-50 lg:mt-8 sm:gap-4 md:gap-4 sm:mt-10 sm:mb-10">
             <input type="text" placeholder="First Name" name="fname" id="fname" className="h-10 p-4 border rounded m-auto"/>
             <input type="text" placeholder="Last Name" name="lname" id="fname" className="h-10 p-4 border rounded m-auto"/>
             <input type="email" placeholder="Email" name="email" id="email" className="h-10 p-4 border rounded m-auto"/>
