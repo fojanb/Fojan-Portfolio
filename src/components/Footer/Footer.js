@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  FaFacebook,
+  FaEnvelope,
   FaTwitter,
   FaInstagram,
   FaLinkedinIn,
-  FaRegCopyright
+  FaRegCopyright,
 } from "react-icons/fa";
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
         className="grid grid-rows-1 grid-cols-5 justify-center text-sm items-center top-0 left-0 z-20 py-8 w-1/2 text-gray-500 m-auto border-t border-opacity-10 lg:w-3/4 md:w-3/4 sm:grid-cols-1 sm:gap-5 sm:pb-8"
       >
         <Link
-          to="/"
+          to="/services"
           className="flex justify-center items-center font-normal text-sm transform hover:scale-105 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
         >
           Services
@@ -27,22 +27,22 @@ const Footer = () => {
           Contact
         </Link>
         <Link
-          to="/gallery"
+          to="/FAQ"
           className="flex justify-center items-center font-normal text-sm transform hover:scale-105 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l sm:border-none"
         >
           FAQ
         </Link>
-        <div
-          
-          className="flex justify-center items-center font-normal text-sm sm:text-l md:text-sm md:px-4"
-        >
-          <FaRegCopyright/>2021-Fojan
+        <div className="flex justify-center items-center font-normal text-sm sm:text-l md:text-sm md:px-4">
+          <FaRegCopyright />
+          2021-Fojan
         </div>
         <div className="flex justify-evenly items-center font-normal text-sm sm:text-l">
-          <FaFacebook className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out"/>
-          <FaTwitter className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out"/>
-          <FaInstagram className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out"/>
-          <FaLinkedinIn className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out"/>
+          <Link to="/google-login">
+            <FaEnvelope className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out" />
+          </Link>
+          <FaTwitter className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out" />
+          <FaInstagram className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out" />
+          <FaLinkedinIn className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out" />
         </div>
       </div>
     </div>
