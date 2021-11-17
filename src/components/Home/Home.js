@@ -13,7 +13,7 @@ const Home = () => {
           FOJAN BABAALI
         </h1>
         <div className="flex m-auto text-base text-gray-300">
-          <FaMapMarkerAlt className="m-auto mt-5 sm:text-xs" />
+          <FaMapMarkerAlt className="m-auto mt-5 text-red-400 sm:text-xs" />
           <span className="italic m-auto mt-4 mb-8 z-20 sm:text-sm">
             Vancouver, CA
           </span>
