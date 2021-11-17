@@ -1,6 +1,6 @@
 import React from "react";
 
-const SvgImg = () => {
+const NavBarIcon = () => {
   return (
     <svg
       width="1518"
@@ -18,4 +18,4 @@ const SvgImg = () => {
   );
 };
 
-export default SvgImg;
+export default NavBarIcon;
