@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="grid grid-rows-1 grid-cols-5 justify-center text-center items-center m-0 m-auto h-20 absolute bottom-0 left-20 py-10 w-96 text-gray-600 sm:w-48 sm:h-32 sm:grid-cols-1 sm:grid-rows-2 sm:py-4 sm:text-md md:m-0 md:m-auto lg:grid-cols-2 ">
+    <div className="grid grid-rows-1 grid-cols-5 justify-center text-center items-center m-0 m-auto h-20 absolute bottom-4 left-20 absolute pt-16 pb-12 w-96 text-gray-600 sm:w-48 sm:h-32 sm:grid-cols-1 sm:grid-rows-5 sm:py-4 sm:text-md md:m-auto md:m-0 md:pt-18 md:grid-cols-2 md:grid-rows-3 md:h-60">
       <div className="flex justify-center items-center text-center ">
         Socials
       </div>
