@@ -1,4 +1,5 @@
 import React from "react";
+import ContactIcon from "../ContactIcon/ContactIcon";
 const Contact = () => {
   return (
     <div>
@@ -7,9 +8,12 @@ const Contact = () => {
           Contact Fojan
         </p>
         <p className="flex justify-center items-center text-left py-4 z-20">
-          For questions relating/regarding Frontend Development, cooperation and general
-          issues please reach out fojanbabaali@gmail.com
+          For questions relating/regarding Frontend Development, cooperation and
+          general issues please reach out fojanbabaali@gmail.com
         </p>
+        <div className="m-auto">
+          <ContactIcon />
+        </div>
       </div>
     </div>
   );

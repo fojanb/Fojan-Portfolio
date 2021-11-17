@@ -1,5 +1,5 @@
 import React from "react";
-
+import AboutIcon from "../AboutIcon/AboutIcon";
 const About = () => {
   return (
     <div>
@@ -22,6 +22,9 @@ const About = () => {
           detail and inexhaustible energy while shooting, Fojan Babaali delivers
           fresh and modern images that enable her clients to sell products.
         </p>
+        <div className="m-auto">
+          <AboutIcon/>
+        </div>
       </div>
     </div>
   );
