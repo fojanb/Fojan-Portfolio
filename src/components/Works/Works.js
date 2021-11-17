@@ -7,7 +7,7 @@ const Works = () => {
         <span className="sm:hidden md:hidden">
           <WorksIcon />
         </span>
-        <span>Works</span>
+        <span className="text-shadow-lg">Works</span>
       </p>
 
       <div className="grid grid-rows-1 grid-cols-3 gap-8 text-gray-100 w-1/2 m-auto py-8 lg:w-3/4 md:grid-cols-1 md:w-1/2 galaxy:w-1/2 sm:grid-cols-1 sm:gap-4 ">

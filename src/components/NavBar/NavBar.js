@@ -14,25 +14,25 @@ const NavBar = () => {
       >
         <Link
           to="/"
-          className="flex justify-center items-center font-normal text-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
+          className="flex justify-center items-center font-normal text-lg text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
         >
           Home
         </Link>
         <Link
           to="/about"
-          className="flex justify-center items-center font-normal text-lg transform hover:scale-110 hover:text-gray-100 hover:transition border-l border-opacity-30 border-r duration-500 ease-in-out sm:text-l sm:border-none"
+          className="flex justify-center items-center font-normal text-lg text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition border-l border-opacity-30 border-r duration-500 ease-in-out sm:text-l sm:border-none"
         >
           About
         </Link>
         <Link
           to="/works"
-          className="flex justify-center items-center font-normal text-lg transform hover:scale-110 border-r border-opacity-30 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l sm:border-none"
+          className="flex justify-center items-center font-normal text-lg text-shadow-lg transform hover:scale-110 border-r border-opacity-30 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l sm:border-none"
         >
           Works
         </Link>
         <Link
           to="/contact"
-          className="flex justify-center items-center font-normal text-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
+          className="flex justify-center items-center font-normal text-lg text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
         >
           Contact
         </Link>
