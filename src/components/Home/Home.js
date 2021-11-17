@@ -16,7 +16,7 @@ const Home = () => {
 
         <div className="flex m-auto text-base text-gray-300">
           <FaMapMarkerAlt className="m-auto mt-5 text-red-500 opacity-70 sm:text-xs" />
-          <span className="italic m-auto mt-4 mb-8 z-20 text-shadow-md sm:text-sm">
+          <span className="italic text-gray-300 m-auto mt-4 mb-8 z-20 text-shadow-md sm:text-sm">
             Vancouver, CA
           </span>
         </div>
