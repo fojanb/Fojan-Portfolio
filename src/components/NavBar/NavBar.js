@@ -6,7 +6,7 @@ import Logo from "../../assets/Logo.png";
 const NavBar = () => {
   return (
     <div>
-      <div className="absolute top-0 left-4 -z-1 sm:-left-60">
+      <div className="absolute top-0 left-4 -z-1 sm:-left-60 md:-left-60">
         <NavBarIcon />
       </div>
       <div
@@ -33,12 +33,12 @@ const NavBar = () => {
         </Link>
         <Link
           to="/contact"
-          className="flex justify-center items-center font-normal text-lg text-shadow-lg transform hover:scale-110 border-r border-opacity-30 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
+          className="flex justify-center items-center font-normal text-lg text-shadow-lg transform hover:scale-110 border-r border-opacity-30 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l sm:border-none"
         >
           Contact
         </Link>
-        <div className="flex justify-center items-center">
-         <img src={Logo} alt="" height="40" width="40" />
+        <div className="flex justify-center items-center z-50">
+          <img src={Logo} alt="" height="60" width="60"/>
         </div>
       </div>
     </div>
