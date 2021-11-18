@@ -5,7 +5,7 @@ import NavBarIcon from "../NavBarIcon/NavBarIcon";
 const NavBar = () => {
   return (
     <div>
-      <div className="absolute top-0 left-4 -z-1">
+      <div className="absolute top-0 left-4 -z-1 sm:-left-60">
         <NavBarIcon/>
       </div>
       <div
