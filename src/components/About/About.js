@@ -20,9 +20,9 @@ const About = () => {
         <div className="m-auto m-0">
           <AboutIcon />
         </div>
-        <div className="flex flex-rows justify-center items-center text center">
-          <Link to="/story"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out">My Story</span></Link> 
-          <Link to="/resume"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out">My Resume</span></Link>
+        <div className="flex flex-row justify-evenly items-center text center sm:flex-col md:flex-col">
+          <Link to="/story"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:p-8 sm:mb-4 md:mb-4 md:text-sm">My Story</span></Link> 
+          <Link to="/resume"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:p-8 sm:mt-4 md:mt-4 md:text-sm">My Resume</span></Link>
         </div>
       </div>
     </div>
