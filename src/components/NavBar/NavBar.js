@@ -1,16 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import NavBarIcon from "../NavBarIcon/NavBarIcon";
+import Logo from "../../assets/Logo.png";
 
 const NavBar = () => {
   return (
     <div>
       <div className="absolute top-0 left-4 -z-1 sm:-left-60">
-        <NavBarIcon/>
+        <NavBarIcon />
       </div>
       <div
         id="navbar"
-        className="grid grid-rows-1 grid-cols-4 justify-center text-lg items-center top-0 left-0 z-20 py-8 w-1/2 text-gray-300 m-auto lg:w-3/4 md:w-3/4 sm:grid-cols-1 sm:gap-2 sm:pb-8 sm:border-b sm:border-opacity-10"
+        className="grid grid-rows-1 grid-cols-5 justify-center text-lg items-center top-0 left-0 z-20 py-8 w-1/2 text-gray-300 m-auto lg:w-3/4 md:w-3/4 sm:grid-cols-1 sm:gap-2 sm:pb-8 sm:border-b sm:border-opacity-10"
       >
         <Link
           to="/"
@@ -32,10 +33,13 @@ const NavBar = () => {
         </Link>
         <Link
           to="/contact"
-          className="flex justify-center items-center font-normal text-lg text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
+          className="flex justify-center items-center font-normal text-lg text-shadow-lg transform hover:scale-110 border-r border-opacity-30 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
         >
           Contact
         </Link>
+        <div className="flex justify-center items-center">
+         <img src={Logo} alt="" height="40" width="40" />
+        </div>
       </div>
     </div>
   );
