@@ -8,7 +8,7 @@ import {
   FaBars,
 } from "react-icons/fa";
 
-const SideInfo = () => {
+const SideBar = () => {
   return (
     <div className="">
       <div className=" grid grid-cols-1 absolute left-0 top-0 text-gray-300 w-20 min-h-full justify-center items-center text-center sm:hidden md:hidden">
@@ -46,4 +46,4 @@ const SideInfo = () => {
   );
 };
 
-export default SideInfo;
+export default SideBar;

@@ -34,7 +34,7 @@ const Footer = () => {
         </Link>
         <div className="flex justify-center items-center font-normal text-sm sm:text-l md:text-sm md:px-4">
           <FaRegCopyright />
-          2021-Fojan
+          Fojan 2021
         </div>
         <div className="flex justify-evenly items-center font-normal text-sm sm:text-l">
           <Link to="/google-login">

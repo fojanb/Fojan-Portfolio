@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import FojanIcon from "../FojanIcon/FojanIcon";
+import HomeIcon from "../HomeIcon/HomeIcon";
 const joinHandler = () => {
   console.log("Link to the join page");
 };
@@ -21,7 +21,7 @@ const Home = () => {
           </span>
         </div>
         <div className="relative m-0 m-auto">
-          <FojanIcon />
+          <HomeIcon />
         </div>
       </div>
       <div className="flex flex-row flex-wrap text-gray-100 w-72 justify-between m-auto md:justify-evenly galaxy:justify-evenly sm:justify-evenly sm:w-40">

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import NavBarIcon from "../NavBarIcon/NavBarIcon";
-import Logo from "../../assets/Logo.png";
+import UserIcon from "../../assets/UserIcon.png";
 
 const NavBar = () => {
   return (
@@ -38,7 +38,7 @@ const NavBar = () => {
           Contact
         </Link>
         <div className="flex justify-center items-center z-50">
-          <img src={Logo} alt="" height="60" width="60"/>
+          <img src={UserIcon} alt="" height="60" width="60"/>
         </div>
       </div>
     </div>
