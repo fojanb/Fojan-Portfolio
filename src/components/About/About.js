@@ -12,7 +12,7 @@ const About = () => {
 
         <p className="flex justify-center items-center text-left z-20 sm:mb-28 md:mb-28 galaxy:mb-28">
           Hey! It's me, Fojan. I'm a self-motivated frontend developer, located
-          in BC, Canada. If you're just curious about my story, or you just wnat
+          in beautiful BC, Canada. If you're just curious about my story, or you just want
           to grab my resume, you're in the right spot.
           <br />
           <br />
@@ -22,7 +22,7 @@ const About = () => {
         </div>
         <div className="flex flex-rows justify-center items-center text center">
           <Link to="/story"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out">My Story</span></Link> 
-          <Link><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out">My Resume</span></Link>
+          <Link to="/resume"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out">My Resume</span></Link>
         </div>
       </div>
     </div>
