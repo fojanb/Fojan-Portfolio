@@ -9,7 +9,7 @@ const About = () => {
           About Fojan
         </p>
 
-        <p className="flex justify-center items-center text-left z-20 sm:mb-40 md:mb-40 galaxy:mb-40">
+        <p className="flex justify-center items-center text-left z-20 sm:mb-28 md:mb-28 galaxy:mb-28">
           Fojan is a premier professional photographer located in Vancouver BC
           Canada and abroad. Her technical skills matched with vibrant energy
           and creative intuition enable him to create stunning visual images.
@@ -22,7 +22,7 @@ const About = () => {
           detail and inexhaustible energy while shooting, Fojan Babaali delivers
           fresh and modern images that enable her clients to sell products.
         </p>
-        <div className="m-auto">
+        <div className="m-auto m-0">
           <AboutIcon/>
         </div>
       </div>
