@@ -44,6 +44,10 @@ const Works = () => {
             </article>
           </div>
         </div>
+        
+        <div className="hidden sm:flex sm:items-center sm:justify-center md:flex md:items-center md:justify-center">
+          <WorksIcon />
+        </div>
       </div>
     </div>
   );
