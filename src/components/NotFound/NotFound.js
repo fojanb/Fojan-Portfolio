@@ -1,6 +1,6 @@
 import React from "react";
 import NotFoundIcon from "../NotFoundIcon/NotFoundIcon";
-
+// Adding 404 page
 const Notfound = () => {
   return (
     <div className="grid grid-rows-2 grid-cols-1 w-1/3 text-center m-auto m-0 text-3xl text-gray-300 z-20 h-screen">
