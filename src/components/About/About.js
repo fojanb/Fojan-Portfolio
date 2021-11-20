@@ -1,6 +1,9 @@
 import React from "react";
 import AboutIcon from "../AboutIcon/AboutIcon";
-import { Link } from "react-router-dom";
+import { Route ,Link } from "react-router-dom";
+import Story from "../Story/Story";
+import Resume from "../Resume/Resume";
+
 const About = () => {
   return (
     <div>
@@ -21,10 +24,13 @@ const About = () => {
           <AboutIcon />
         </div>
         <div className="flex flex-row justify-evenly items-center text center sm:flex-col md:flex-col">
-          <Link to="/story"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:p-8 sm:mb-4 md:mb-4 md:text-sm">My Story</span></Link> 
-          <Link to="/resume"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:p-8 sm:mt-4 md:mt-4 md:text-sm">My Resume</span></Link>
+          <Link to="/about/story"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:p-8 sm:mb-4 md:mb-4 md:text-sm">My Story</span></Link> 
+          <Link to="/about/resume"><span className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center p-8 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:p-8 sm:mt-4 md:mt-4 md:text-sm">My Resume</span></Link>
         </div>
       </div>
+      <Route path="/about/story" exact component={Story}/>
+      <Route path="/about/resume" exact component={Resume}/>
+
     </div>
   );
 };

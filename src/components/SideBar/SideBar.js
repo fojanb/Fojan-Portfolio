@@ -13,7 +13,7 @@ const SideBar = () => {
     <div className="">
       <div className=" grid grid-cols-1 absolute left-0 top-0 text-gray-300 w-20 min-h-full justify-center items-center text-center sm:hidden md:hidden">
         <div className="flex flex-col justify-between items-center text-center h-60 m-0 m-auto z-50 fixed top-32 left-8">
-          <div className="transform hover:scale-125 hover:text-gray-100 hover:transition duration-500 ease-in-out">
+          <div className="cursor-pointer transform hover:scale-125 hover:text-gray-100 hover:transition duration-500 ease-in-out">
             <FaBars />
           </div>
           <Link
