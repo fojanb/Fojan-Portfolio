@@ -7,7 +7,7 @@ import FileSaver from "file-saver";
 const About = () => {
   const saveFile = () => {
     FileSaver.saveAs(
-      "http://localhost:3000" + "/src/assets/Fojan-CV.pdf",
+      `http://localhost:3000/src/assets/Fojan-CV.pdf`,
       "Fojan-Babaali-CV.pdf"
     );
   };
