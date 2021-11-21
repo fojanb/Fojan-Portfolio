@@ -27,15 +27,16 @@ const Story = () => {
           As I mentioned before, I have geniunly in love with graphic design. So
           I decided to start learning UI/UX as well.
           <br /> <br />
-          And last but not least,I do the work I do because I love it. I like the
-          industry. I like the people I meet. I like the coding. I like to make
-          the web a better place. Hopefully we cross paths in the real world
-          someday and we can make it a better place together.
+          And last but not least,I do the work I do because I love it. I like
+          the industry. I like the people I meet. I like the coding. I like to
+          make the web a better place. Hopefully we cross paths in the real
+          world someday and we can make it a better place together.
         </p>
-
-        <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-auto text-sm w-28 mt-28 p-12 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out ">
-          <Link to="/about">Back</Link>
-        </div>
+        <Link to="/about">
+          <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-auto text-sm w-28 mt-28 p-12 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out ">
+            Back
+          </div>
+        </Link>
         <div className="flex justify-center items-center pb-16">
           <Vase />
         </div>

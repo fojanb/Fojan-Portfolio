@@ -1,5 +1,6 @@
 import React from "react";
 import ContactIcon from "../ContactIcon/ContactIcon";
+import Dog from "../Dog/Dog";
 const Contact = () => {
   return (
     <div>
@@ -13,6 +14,9 @@ const Contact = () => {
         </p>
         <div className="m-auto">
           <ContactIcon />
+        </div>
+        <div className="m-auto md:hidden">
+          <Dog />
         </div>
       </div>
     </div>
