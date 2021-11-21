@@ -12,30 +12,18 @@ const Footer = () => {
     <div>
       <div
         id="footer"
-        className="grid grid-rows-1 grid-cols-5 justify-center text-sm items-center top-0 left-0 z-20 py-8 w-1/2 text-gray-500 m-auto border-t border-opacity-10 lg:w-3/4 md:w-3/4 sm:grid-cols-1 sm:gap-5 sm:pb-8"
+        className="grid grid-rows-1 grid-cols-3 justify-center text-sm items-center top-0 left-0 z-20 py-8 w-1/2 text-gray-500 m-auto border-t border-opacity-10 lg:w-3/4 md:w-3/4 sm:grid-cols-1 sm:gap-5 sm:pb-8"
       >
-        <Link
-          to="/services"
-          className="flex justify-center items-center font-normal text-sm transform hover:scale-105 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l"
-        >
-          Services
-        </Link>
+        <div className="flex justify-center items-center font-normal text-sm sm:text-l md:text-sm md:px-4">
+          <FaRegCopyright />
+          Fojan Babaali 2021
+        </div>
         <Link
           to="/contact"
           className="flex justify-center items-center font-normal text-sm transform hover:scale-105 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l sm:border-none"
         >
           Contact
         </Link>
-        <Link
-          to="/FAQ"
-          className="flex justify-center items-center font-normal text-sm transform hover:scale-105 hover:text-gray-100 hover:transition duration-500 ease-in-out sm:text-l sm:border-none"
-        >
-          FAQ
-        </Link>
-        <div className="flex justify-center items-center font-normal text-sm sm:text-l md:text-sm md:px-4">
-          <FaRegCopyright />
-          Fojan 2021
-        </div>
         <div className="flex justify-evenly items-center font-normal text-sm sm:text-l">
           <Link to="/google-login">
             <FaEnvelope className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out" />
