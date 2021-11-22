@@ -11,7 +11,7 @@ const NavBar = () => {
       </div>
       <div
         id="navbar"
-        className="grid grid-rows-1 grid-cols-5 justify-center text-lg items-center top-0 left-0 z-20 py-8 w-1/2 text-gray-300 m-auto lg:w-3/4 md:w-3/4 sm:grid-cols-1 sm:gap-2 sm:pb-8 sm:border-b sm:border-opacity-10"
+        className="grid grid-rows-1 grid-cols-5 justify-center text-lg items-center top-0 left-0 z-20 py-8 w-1/2 text-gray-300 m-auto lg:w-3/4 md:w-3/4 sm:grid-cols-1 sm:gap-2 sm:pb-8"
       >
         <Link
           to="/"
