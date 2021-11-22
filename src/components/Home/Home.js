@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import HomeIcon from "../HomeIcon/HomeIcon";
 import MistFirst from "../MistFirst/MistFirst";
+import ImStrong from "../ImStrong/ImStrong";
 const joinHandler = () => {
   console.log("Link to the join page");
 };
@@ -27,20 +28,23 @@ const Home = () => {
         </div>
       </div>
       <div className="m-0 m-auto text-gray-100 text-justify sm:tracking-tighter	">
-        <p>Hey! It's me, Fojan. I'm a self-motivated frontend developer, located in
-        beautiful BC, Canada. If you're just curious about my story, or you just
-        want to grab my resume, you're in the right spot.Hey! It's me, Fojan.
-        I'm a self-motivated frontend developer, located in beautiful BC,
-        Canada. If you're just curious about my story, or you just want to grab
-        my resume, you're in the right spot.Hey! It's me, Fojan. I'm a
-        self-motivated frontend developer, located in beautiful BC, Canada. If
-        you're just curious about my story, or you just want to grab my resume,
-        you're in the right spot.Hey! It's me, Fojan.
-        </p><br/>
-        <p>I'm a self-motivated
-        frontend developer, located in beautiful BC, Canada. If you're just
-        curious about my story, or you just want to grab my resume, you're in
-        the right spot.Hey! It's me, Fojan..</p>
+        <p>
+          Hey! It's me, Fojan. I'm a self-motivated frontend developer, located
+          in beautiful BC, Canada. If you're just curious about my story, or you
+          just want to grab my resume, you're in the right spot.Hey! It's me,
+          Fojan. I'm a self-motivated frontend developer, located in beautiful
+          BC, Canada. If you're just curious about my story, or you just want to
+          grab my resume, you're in the right spot.Hey! It's me, Fojan. I'm a
+          self-motivated frontend developer, located in beautiful BC, Canada. If
+          you're just curious about my story, or you just want to grab my
+          resume, you're in the right spot.Hey! It's me, Fojan.
+        </p>
+        <br />
+        <p>
+          I'm a self-motivated frontend developer, located in beautiful BC,
+          Canada. If you're just curious about my story, or you just want to
+          grab my resume, you're in the right spot.Hey! It's me, Fojan..
+        </p>
       </div>
       <div className="flex flex-row flex-wrap text-gray-100 w-72 justify-between m-auto md:justify-evenly galaxy:justify-evenly sm:justify-evenly sm:w-40">
         <Link to="/home/join">
@@ -56,8 +60,11 @@ const Home = () => {
         </button>
       </div>
       <div className="flex relative m-0 m-auto md:hidden">
-        <p className="text-gray-100 z-20 text-2xl text-gray-500 font-base m-0 m-auto absolute bottom-60 right-48">I am &#60;strong/&#62;</p>
-        <MistFirst className="-z-1"/>
+        <div className="text-gray-100 z-20 text-2xl text-gray-500 font-base m-0 m-auto absolute bottom-48 right-36">
+          <p>I am &#60;strong/&#62;</p>
+          <ImStrong />
+        </div>
+        <MistFirst className="-z-1" />
       </div>
     </div>
   );
