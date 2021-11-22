@@ -24,7 +24,7 @@ module.exports = {
       }),
       textColor: {
         main: "#292929",
-        violet: "#454464",
+        light: "#454464",
         ruby: "#C22121",
       },
       screens: {

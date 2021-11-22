@@ -26,7 +26,7 @@ const Home = () => {
           <HomeIcon />
         </div>
       </div>
-      <div className="m-0 m-auto text-gray-100 text-justify">
+      <div className="m-0 m-auto text-gray-100 text-justify sm:tracking-tighter	">
         <p>Hey! It's me, Fojan. I'm a self-motivated frontend developer, located in
         beautiful BC, Canada. If you're just curious about my story, or you just
         want to grab my resume, you're in the right spot.Hey! It's me, Fojan.
@@ -40,15 +40,7 @@ const Home = () => {
         <p>I'm a self-motivated
         frontend developer, located in beautiful BC, Canada. If you're just
         curious about my story, or you just want to grab my resume, you're in
-        the right spot.Hey! It's me, Fojan. I'm a self-motivated frontend
-        developer, located in beautiful BC, Canada. If you're just curious about
-        my story, or you just want to grab my resume, you're in the right
-        spot.Hey! It's me, Fojan. I'm a self-motivated frontend developer,
-        located in beautiful BC, Canada. If you're just curious about my story,
-        or you just want to grab my resume, you're in the right spot.Hey! It's
-        me, Fojan. I'm a self-motivated frontend developer, located in beautiful
-        BC, Canada. If you're just curious about my story, or you just want to
-        grab my resume, you're in the right spot.</p>
+        the right spot.Hey! It's me, Fojan..</p>
       </div>
       <div className="flex flex-row flex-wrap text-gray-100 w-72 justify-between m-auto md:justify-evenly galaxy:justify-evenly sm:justify-evenly sm:w-40">
         <Link to="/home/join">
@@ -64,7 +56,7 @@ const Home = () => {
         </button>
       </div>
       <div className="flex relative m-0 m-auto md:hidden">
-        <p className="text-gray-100 z-20 text-4xl font-bold m-0 m-auto absolute bottom-60 right-60">&#60;/&#62;</p>
+        <p className="text-gray-100 z-20 text-2xl text-gray-500 font-base m-0 m-auto absolute bottom-60 right-48">I am &#60;strong/&#62;</p>
         <MistFirst className="-z-1"/>
       </div>
     </div>
