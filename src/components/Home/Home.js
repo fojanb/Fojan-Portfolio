@@ -60,7 +60,7 @@ const Home = () => {
         </button>
       </div>
       <div className="flex relative m-0 m-auto md:hidden">
-        <div className="text-gray-100 z-20 text-2xl text-gray-500 font-base m-0 m-auto absolute bottom-48 right-36">
+        <div className="text-gray-100 z-20 text-2xl text-gray-500 font-base m-0 m-auto absolute bottom-40 right-36">
           <p>I am &#60;strong/&#62;</p>
           <ImStrong />
         </div>
