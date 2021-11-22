@@ -16,7 +16,6 @@ const Home = () => {
         <p className="text-lg text-center z-20 text-shadow-md py-4 sm:text-lg">
           Frontend Developer
         </p>
-
         <div className="flex m-auto text-base text-gray-300">
           <FaMapMarkerAlt className="m-auto mt-5 text-red-500 opacity-70 sm:text-xs" />
           <span className="italic text-gray-300 m-auto mt-4 mb-8 z-20 text-shadow-md sm:text-sm">
@@ -27,7 +26,7 @@ const Home = () => {
           <HomeIcon />
         </div>
       </div>
-      <div className="m-0 m-auto text-gray-100">
+      <div className="m-0 m-auto text-gray-100 text-justify">
         <p>Hey! It's me, Fojan. I'm a self-motivated frontend developer, located in
         beautiful BC, Canada. If you're just curious about my story, or you just
         want to grab my resume, you're in the right spot.Hey! It's me, Fojan.
@@ -64,9 +63,9 @@ const Home = () => {
           Subscribe
         </button>
       </div>
-      
-      <div className="relative m-0 m-auto">
-        <MistFirst/>
+      <div className="flex relative m-0 m-auto md:hidden">
+        <p className="text-gray-100 z-20 text-4xl font-bold m-0 m-auto absolute bottom-60 right-60">&#60;/&#62;</p>
+        <MistFirst className="-z-1"/>
       </div>
     </div>
   );

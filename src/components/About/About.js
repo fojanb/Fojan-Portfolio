@@ -18,7 +18,7 @@ const About = () => {
           About Fojan
         </p>
 
-        <p className="flex justify-center items-center text-left z-20 sm:mb-28 md:mb-28 galaxy:mb-28">
+        <p className="flex justify-center items-center text-left text-justify z-20 sm:mb-28 md:mb-28 galaxy:mb-28">
           Hey! It's me, Fojan. I'm a self-motivated frontend developer, located
           in beautiful BC, Canada. If you're just curious about my story, or you
           just want to grab my resume, you're in the right spot.
