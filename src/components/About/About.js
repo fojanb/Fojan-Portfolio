@@ -18,14 +18,14 @@ const About = () => {
           About Fojan
         </p>
 
-        <p className="flex justify-center items-center text-left text-justify z-20 sm:mb-28 md:mb-28 galaxy:mb-28">
+        <p className="flex justify-center items-center text-left text-justify z-20 sm:mb-18 md:mb-18 galaxy:mb-18">
           Hey! It's me, Fojan. I'm a self-motivated frontend developer, located
           in beautiful BC, Canada. If you're just curious about my story, or you
           just want to grab my resume, you're in the right spot.
           <br />
           <br />
         </p>
-        <div className="m-auto m-0">
+        <div className="mt-4 m-auto m-0">
           <AboutIcon />
         </div>
         <div className="flex flex-row justify-evenly items-center text center sm:flex-col md:flex-col">
