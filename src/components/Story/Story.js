@@ -32,13 +32,13 @@ const Story = () => {
           make the web a better place. Hopefully we cross paths in the real
           world someday and we can make it a better place together.
         </p>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-wrap justify-between items-center sm:flex-col">
           <Link to="/about">
             <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-0 m-auto text-sm w-28 p-12 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out ">
               Back
             </div>
           </Link>
-          <div className="flex justify-center items-center pb-16">
+          <div className="flex justify-center m-0 m-auto items-center pb-16">
             <Vase />
           </div>
         </div>

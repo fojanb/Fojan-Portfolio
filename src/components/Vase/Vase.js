@@ -3,8 +3,8 @@ import React from "react";
 const Vase = () => {
   return (
     <svg
-      width="130"
-      height="130"
+      width="120"
+      height="120"
       viewBox="0 0 462 395"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
