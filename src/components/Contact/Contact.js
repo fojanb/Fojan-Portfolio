@@ -8,9 +8,10 @@ const Contact = () => {
         <p className="bg-blob2 bg-contain bg-center bg-no-repeat flex items-center text-shadow-lg py-20 justify-center text-gray-300 font-bold text-3xl z-20 sm:bg-secondary sm:rounded-2xl sm:p-2 sm:text-sm sm:bg-none sm:shadow-2xl md:shadow-2xl md:bg-secondary md:rounded-2xl md:p-2 md:text-xl md:bg-none lg:text-xl">
           Contact Fojan
         </p>
-        <p className="flex justify-center items-center text-left py-4 z-20 ">
-          For questions relating/regarding Frontend Development, cooperation and
-          general issues please reach out fojanbabaali@gmail.com
+        <p className="flex flex-col justify-center items-left text-left py-4 z-20 ">
+          For questions relating/regarding Frontend Development,UI/UX Design ,
+          cooperation and general issues please reach out me via
+          fojanbabaali@gmail.com
         </p>
         <div className="m-auto">
           <ContactIcon />

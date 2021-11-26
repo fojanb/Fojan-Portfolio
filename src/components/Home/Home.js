@@ -9,7 +9,7 @@ const joinHandler = () => {
 };
 const Home = () => {
   return (
-    <div className="grid grid-rows-1 grid-cols-2 justify-center items-center m-auto px-28 lg:grid-cols-1 md:px-14 sm:px-8 sm:m-auto md:mb-28 lg:gap-8">
+    <div className="grid grid-rows-1 grid-cols-2 w-2/3 justify-center items-center m-0 m-auto gap-4 lg:grid-cols-1 md:px-14 sm:px-8 sm:m-auto md:mb-28 lg:gap-8">
       <div className="flex flex-col text-5xl text-gray-300 font-bold pt-24 lg:text-4xl md:text-3xl md:pt-14 galaxy:text-3xl sm:text-xl sm:m-auto sm:justify-center sm:items-center">
         <h1 className="m-auto z-20 text-shadow-lg sm:text-2xl sm:text-center">
           FOJAN BABAALI
@@ -18,7 +18,7 @@ const Home = () => {
           Frontend Developer
         </p>
         <div className="flex m-auto text-base text-gray-300">
-          <FaMapMarkerAlt className="m-auto mt-5 text-red-500 opacity-70 sm:text-xs" />
+          <FaMapMarkerAlt className="m-auto mt-5 text-red-400 opacity-70 sm:text-xs" />
           <span className="italic text-gray-300 m-auto mt-4 mb-8 z-20 text-shadow-md sm:text-sm">
             Vancouver, CA
           </span>
@@ -61,7 +61,9 @@ const Home = () => {
       </div>
       <div className="flex relative m-0 m-auto md:hidden">
         <div className="text-gray-100 z-20 text-2xl text-gray-500 font-base m-0 m-auto absolute bottom-40 right-36">
-          <p>I am &#60;<span className="font-bold">strong</span>/&#62;</p>
+          <p>
+            I am &#60;<span className="font-bold">strong</span>/&#62;
+          </p>
           <ImStrong />
         </div>
         <MistFirst className="-z-1" />
