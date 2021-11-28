@@ -9,9 +9,15 @@ const Works = () => {
         </span>
         <span className="text-shadow-lg">Works</span>
       </p>
-      <p className="flex text-left items-center justify-center m-auto text-gray-300 px-14 py-8 relative z-40">
-        Here you can see some of my personal frontend projects. I have mostly
-        used React and public API on them.
+      <p className="flex flex-col text-left items-center justify-center text-lg m-auto text-gray-300 px-14 py-8 relative z-40">
+        <div>Here you can see some of my personal frontend projects.</div>
+        <div>
+          I have mostly used React and public API on them. Make sure to checkout{" "}
+          <a href="https://github.com/fojanb" target="_blank">
+            &nbsp;my GitHub
+          </a>
+          .
+        </div>
       </p>
       <div className="grid grid-rows-1 grid-cols-1 gap-8 text-gray-100 w-1/2  m-auto py-8 lg:w-3/4 md:grid-cols-1 md:w-1/2 galaxy:w-3/4 sm:grid-cols-1 sm:gap-4 ">
         <div className="flex items-center justify-center ">
