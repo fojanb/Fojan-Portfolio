@@ -9,7 +9,7 @@ const Works = () => {
         </span>
         <span className="text-shadow-lg">Works</span>
       </p>
-      <p className="flex text-left items-center justify-center text-gray-300 py-8 relative z-40">
+      <p className="flex text-left items-center justify-center m-auto text-gray-300 px-14 py-8 relative z-40">
         Here you can see some of my personal frontend projects. I have mostly
         used React and public API on them.
       </p>
