@@ -56,7 +56,15 @@ const Works = () => {
         </div>
       </p>
       <div className="grid grid-rows-1 grid-cols-1 gap-8 text-gray-100 w-1/2  m-auto py-8 lg:w-3/4 md:grid-cols-1 md:w-1/2 galaxy:w-3/4 sm:grid-cols-1 sm:gap-4 ">
-        <Work data={myWorks} />
+      {myWorks.map((work, index) => (
+          <Work
+            title={work.title}
+            description={work.description}
+            link={work.link}
+            key={index}
+            // key should be something unique that's why I used "index"
+          />
+        ))}
         {/* <div className="flex items-center justify-center ">
           <div className="bg-light w-max h-auto text-left p-4 rounded-xl shadow-2xl">
             <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg p-8 text-gray-300">

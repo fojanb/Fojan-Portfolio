@@ -1,7 +1,7 @@
 import React from "react";
 
 const Work = (props) => {
-  let { title, description, link } = props.data;
+  let { title, description, link } = props;
   return (
     <div className="flex items-center justify-center">
       <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
