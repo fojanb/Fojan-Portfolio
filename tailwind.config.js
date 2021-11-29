@@ -27,6 +27,8 @@ module.exports = {
         main: "#292929",
         light: "#454464",
         dark: "#25253f",
+        greeny:"#058596",
+        lightGreeny:"#07B5CC"
       },
       screens: {
         lg: { max: "1200px" },

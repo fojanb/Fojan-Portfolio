@@ -14,7 +14,7 @@ const Works = () => {
         <div>
           I have mostly used React and public API on them. Make sure to checkout{" "}
           <a href="https://github.com/fojanb" target="_blank">
-            <span className="font-bold text-green-600 hover:text-green-400 transform hover:scale-100 hover:transition duration-500 ease-in-out">
+            <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
               &nbsp;my GitHub
             </span>
           </a>
@@ -46,7 +46,7 @@ const Works = () => {
               the main server, and it means that I have used react-router-dom in
               all over my portfolio.
               <div className="flex items-left w-60 text-sm p-8 text-gray-300">
-                <span className="font-bold text-green-600 hover:text-green-400 transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
                   <a href="" target="_blank">
                     GitHub Repository&nbsp;<span>→</span>
                   </a>
@@ -75,7 +75,7 @@ const Works = () => {
               projects lives there. And tha last but not least, How did I style
               the food app? Simply used CSS.
               <div className="flex items-left w-60 text-sm p-8 text-gray-300">
-                <span className="font-bold text-green-600 hover:text-green-400 transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
                   <a href="" target="_blank">
                     GitHub Repository&nbsp;<span>→</span>
                   </a>
@@ -100,7 +100,7 @@ const Works = () => {
               found the Canada-Covid-API and start to making a simple but enough
               widget by fetchig the API.
               <div className="flex items-left w-60 text-sm p-8 text-gray-300">
-                <span className="font-bold text-green-600 hover:text-green-400 transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
                   <a href="" target="_blank">
                     GitHub Repository&nbsp;<span>→</span>
                   </a>
@@ -125,7 +125,7 @@ const Works = () => {
               found the Canada-Covid-API and start to making a simple but enough
               widget by fetchig the API.
               <div className="flex items-left w-60 text-sm p-8 text-gray-300">
-                <span className="font-bold text-green-600 hover:text-green-400 transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
                   <a href="" target="_blank">
                     GitHub Repository&nbsp;<span>→</span>
                   </a>
