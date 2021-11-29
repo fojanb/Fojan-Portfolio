@@ -9,7 +9,7 @@ const LinkedIn = () => {
           checkout my LinkedIn page.
         </p>
         <a href="https://www.linkedin.com/in/fojanbabaali/" target="_blank">
-          <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
+          <span className="pt-8 font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
             my LinkedIn page
           </span>
         </a>
