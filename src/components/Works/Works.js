@@ -76,7 +76,10 @@ const Works = () => {
               the food app? Simply used CSS.
               <div className="flex items-left w-60 text-sm p-8 text-gray-300">
                 <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
-                  <a href="" target="_blank">
+                  <a
+                    href="https://github.com/fojanb/Food-Recipe-App"
+                    target="_blank"
+                  >
                     GitHub Repository&nbsp;<span>→</span>
                   </a>
                 </span>
@@ -87,7 +90,7 @@ const Works = () => {
         <div className="flex items-center justify-center">
           <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
             <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
-              Covid-Widget
+              Covid-Widgets
             </header>
             <article className="pt-4 text-left text-gray-300">
               You can not live in 2020 and don't remember Covid-19 pandemeic! It
@@ -101,7 +104,10 @@ const Works = () => {
               widget by fetchig the API.
               <div className="flex items-left w-60 text-sm p-8 text-gray-300">
                 <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
-                  <a href="" target="_blank">
+                  <a
+                    href="https://github.com/fojanb/coronavirus-info-widgets"
+                    target="_blank"
+                  >
                     GitHub Repository&nbsp;<span>→</span>
                   </a>
                 </span>
@@ -126,7 +132,163 @@ const Works = () => {
               widget by fetchig the API.
               <div className="flex items-left w-60 text-sm p-8 text-gray-300">
                 <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
-                  <a href="" target="_blank">
+                  <a
+                    href="https://github.com/fojanb/weather-app"
+                    target="_blank"
+                  >
+                    GitHub Repository&nbsp;<span>→</span>
+                  </a>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
+              Face-Detection
+            </header>
+            <article className="pt-4 text-left text-gray-300">
+              You can not live in 2020 and don't remember Covid-19 pandemeic! It
+              is almost 2022 and Yeah the whole world are still dealing with it!
+              <br />
+              <br />
+              Since I live in Canada (Eh), I decided to follow up Covid-19 data
+              diagram every single day to see if there is a pick or not and in
+              general be updated with the all sort of rates (i.e. death rate). I
+              found the Canada-Covid-API and start to making a simple but enough
+              widget by fetchig the API.
+              <div className="flex items-left w-60 text-sm p-8 text-gray-300">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                  <a
+                    href="https://github.com/fojanb/face-detection"
+                    target="_blank"
+                  >
+                    GitHub Repository&nbsp;<span>→</span>
+                  </a>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
+              Paint-App{" "}
+            </header>
+            <article className="pt-4 text-left text-gray-300">
+              You can not live in 2020 and don't remember Covid-19 pandemeic! It
+              is almost 2022 and Yeah the whole world are still dealing with it!
+              <br />
+              <br />
+              Since I live in Canada (Eh), I decided to follow up Covid-19 data
+              diagram every single day to see if there is a pick or not and in
+              general be updated with the all sort of rates (i.e. death rate). I
+              found the Canada-Covid-API and start to making a simple but enough
+              widget by fetchig the API.
+              <div className="flex items-left w-60 text-sm p-8 text-gray-300">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                  <a href="https://github.com/fojanb/paint-app" target="_blank">
+                    GitHub Repository&nbsp;<span>→</span>
+                  </a>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
+            Jane-Doe-Portfolio
+            </header>
+            <article className="pt-4 text-left text-gray-300">
+              You can not live in 2020 and don't remember Covid-19 pandemeic! It
+              is almost 2022 and Yeah the whole world are still dealing with it!
+              <br />
+              <br />
+              Since I live in Canada (Eh), I decided to follow up Covid-19 data
+              diagram every single day to see if there is a pick or not and in
+              general be updated with the all sort of rates (i.e. death rate). I
+              found the Canada-Covid-API and start to making a simple but enough
+              widget by fetchig the API.
+              <div className="flex items-left w-60 text-sm p-8 text-gray-300">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                  <a href="https://github.com/fojanb/Jane-Doe-Portfolio" target="_blank">
+                    GitHub Repository&nbsp;<span>→</span>
+                  </a>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
+            A Webpage
+            </header>
+            <article className="pt-4 text-left text-gray-300">
+              You can not live in 2020 and don't remember Covid-19 pandemeic! It
+              is almost 2022 and Yeah the whole world are still dealing with it!
+              <br />
+              <br />
+              Since I live in Canada (Eh), I decided to follow up Covid-19 data
+              diagram every single day to see if there is a pick or not and in
+              general be updated with the all sort of rates (i.e. death rate). I
+              found the Canada-Covid-API and start to making a simple but enough
+              widget by fetchig the API.
+              <div className="flex items-left w-60 text-sm p-8 text-gray-300">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                  <a href="https://github.com/fojanb/one-page-website" target="_blank">
+                    GitHub Repository&nbsp;<span>→</span>
+                  </a>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
+            Pixel-Art-Maker
+            </header>
+            <article className="pt-4 text-left text-gray-300">
+              You can not live in 2020 and don't remember Covid-19 pandemeic! It
+              is almost 2022 and Yeah the whole world are still dealing with it!
+              <br />
+              <br />
+              Since I live in Canada (Eh), I decided to follow up Covid-19 data
+              diagram every single day to see if there is a pick or not and in
+              general be updated with the all sort of rates (i.e. death rate). I
+              found the Canada-Covid-API and start to making a simple but enough
+              widget by fetchig the API.
+              <div className="flex items-left w-60 text-sm p-8 text-gray-300">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                  <a href="https://github.com/fojanb/pixel-art-maker" target="_blank">
+                    GitHub Repository&nbsp;<span>→</span>
+                  </a>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
+            Candy-Crush (My childhood crush)
+            </header>
+            <article className="pt-4 text-left text-gray-300">
+              You can not live in 2020 and don't remember Covid-19 pandemeic! It
+              is almost 2022 and Yeah the whole world are still dealing with it!
+              <br />
+              <br />
+              Since I live in Canada (Eh), I decided to follow up Covid-19 data
+              diagram every single day to see if there is a pick or not and in
+              general be updated with the all sort of rates (i.e. death rate). I
+              found the Canada-Covid-API and start to making a simple but enough
+              widget by fetchig the API.
+              <div className="flex items-left w-60 text-sm p-8 text-gray-300">
+                <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
+                  <a href="https://github.com/fojanb/Candy-Crush" target="_blank">
                     GitHub Repository&nbsp;<span>→</span>
                   </a>
                 </span>
