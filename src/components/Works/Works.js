@@ -7,7 +7,7 @@ const Works = () => {
         <span className="sm:hidden md:hidden">
           <WorksIcon />
         </span>
-        <span className="text-shadow-lg">Works</span>
+        <span>Works</span>
       </p>
       <p className="flex flex-col text-left items-center justify-center text-lg m-auto text-gray-300 px-14 py-8 relative z-40">
         <div>Here you can see some of my personal frontend projects.</div>

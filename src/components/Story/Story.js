@@ -4,7 +4,7 @@ import Vase from "../Vase/Vase";
 const Story = () => {
   return (
     <div className="grid grid-cols-1 w-8/12 gap-12 m-auto m-0 text-gray-300">
-      <span className="bg-blob4 bg-contain bg-center bg-no-repeat flex justify-center text-2xl font-bold items-center p-14 text-gray-300 text-shadow-lg z-20">
+      <span className="bg-blob4 bg-contain bg-center bg-no-repeat flex justify-center text-2xl font-bold items-center p-14 text-gray-300 z-20">
         My Story
       </span>
       <div className="grid grid-rows-3 grid-cols-2 gap-8 z-20 lg:grid-rows-1 lg:grid-cols-1 md:grid-rows-1 sm:grid-rows-1">
@@ -36,7 +36,7 @@ const Story = () => {
           </div>
         </div>
         <Link to="/about">
-          <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-0 m-auto text-sm w-28 p-12 text-gray-300 text-shadow-lg transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out lg:mb-10 sm:mb-10 md:mb-10 ">
+          <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-0 m-auto text-sm w-28 p-12 text-gray-300 transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out lg:mb-10 sm:mb-10 md:mb-10 ">
             Back
           </div>
         </Link>

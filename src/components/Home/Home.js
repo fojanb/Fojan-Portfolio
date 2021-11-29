@@ -11,15 +11,15 @@ const Home = () => {
   return (
     <div className="grid grid-rows-1 grid-cols-2 w-2/3 pt-24 justify-center items-center m-0 m-auto gap-4 lg:grid-cols-1 lg:w-2/3 sm:m-auto md:mb-28 lg:gap-8">
       <div className="flex flex-col text-5xl text-gray-300 font-bold lg:text-4xl md:text-3xl md:pt-14 galaxy:text-3xl sm:text-xl sm:m-auto sm:justify-center sm:items-center">
-        <h1 className="m-auto z-20 text-shadow-lg md:text-2xl sm:text-2xl sm:text-center">
+        <h1 className="m-auto z-20 md:text-2xl sm:text-2xl sm:text-center">
           FOJAN BABAALI
         </h1>
-        <p className="text-lg text-center z-20 text-shadow-md py-4 sm:text-lg">
+        <p className="text-lg text-center z-20 py-4 sm:text-lg">
           Frontend Developer
         </p>
         <div className="flex m-auto text-base text-gray-300">
           <FaMapMarkerAlt className="m-auto mt-5 text-red-400 opacity-70 sm:text-xs" />
-          <span className="italic text-gray-300 m-auto mt-4 mb-8 z-20 text-shadow-md sm:text-sm">
+          <span className="italic text-gray-300 m-auto mt-4 mb-8 z-20 sm:text-sm">
             Vancouver, CA
           </span>
         </div>
