@@ -25,7 +25,7 @@ const Works = () => {
             <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg p-8 text-gray-300">
               My Personal Portfolio
             </header>
-            <article className="pt-4 text-left">
+            <article className="pt-4 text-left text-gray-300">
               <strong>
                 This is one those projects that I geniunly made it with true
                 love.
@@ -49,10 +49,10 @@ const Works = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
-            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-8">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-60 font-bold text-lg text-gray-300 p-8">
               Food Reciepe App
             </header>
-            <article className="pt-4 text-left">
+            <article className="pt-4 text-left text-gray-300">
               Me, as a developer barely find a free time to cook. I know that
               you maybe at the same boat as me.Anyway, it does not mean that I
               can not make food applications! Honestly I am a food lover! so I
@@ -71,10 +71,10 @@ const Works = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
-            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-8">
-              Covid-API-Canada
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
+              Covid-Widget
             </header>
-            <article className="pt-4 text-left">
+            <article className="pt-4 text-left text-gray-300">
               You can not live in 2020 and don't remember Covid-19 pandemeic! It
               is almost 2022 and Yeah the whole world are still dealing with it!
               <br />
@@ -87,7 +87,24 @@ const Works = () => {
             </article>
           </div>
         </div>
-
+        <div className="flex items-center justify-center">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-52 font-bold text-lg text-gray-300 p-8">
+              Weather-App
+            </header>
+            <article className="pt-4 text-left text-gray-300">
+              You can not live in 2020 and don't remember Covid-19 pandemeic! It
+              is almost 2022 and Yeah the whole world are still dealing with it!
+              <br />
+              <br />
+              Since I live in Canada (Eh), I decided to follow up Covid-19 data
+              diagram every single day to see if there is a pick or not and in
+              general be updated with the all sort of rates (i.e. death rate). I
+              found the Canada-Covid-API and start to making a simple but enough
+              widget by fetchig the API.
+            </article>
+          </div>
+        </div>
         <div className="hidden sm:flex sm:items-center sm:justify-center md:flex md:items-center md:justify-center">
           <WorksIcon />
         </div>
