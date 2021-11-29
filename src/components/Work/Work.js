@@ -1,4 +1,5 @@
 import React from "react";
+import Arrow from "../Arrow/Arrow";
 
 const Work = (props) => {
   let { title, description, link } = props;
@@ -11,14 +12,15 @@ const Work = (props) => {
         <article className="pt-4 text-left text-gray-300">
           {description}
           <div className="flex items-left w-60 text-sm p-8">
-            <span className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
-              <a
-                href={link}
-                target="_blank"
-              >
-                GitHub Repository&nbsp;<span>→</span>
+            <div className="font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
+              <a href={link} target="_blank">
+                <div className="flex justify-between itmes-center w-40">
+                <Arrow />
+                  <span>GitHub Repository</span>
+                  
+                </div>
               </a>
-            </span>
+            </div>
           </div>
         </article>
       </div>
