@@ -36,7 +36,7 @@ const Story = () => {
           </div>
         </div>
         <Link to="/about">
-          <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-0 m-auto text-sm w-28 p-12 text-gray-300 transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out lg:mb-10 sm:mb-10 md:mb-10 ">
+          <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-0 m-auto text-sm w-28 p-12 text-gray-300 font-bold transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out lg:mb-10 sm:mb-10 md:mb-10 ">
             Back
           </div>
         </Link>

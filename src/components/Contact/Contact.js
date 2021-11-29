@@ -11,7 +11,7 @@ const Contact = () => {
         <p className="flex flex-col justify-center items-left text-left py-4 z-20 ">
           For questions relating/regarding Frontend Development,UI/UX Design ,
           cooperation and general issues please reach out me via
-          fojanbabaali@gmail.com
+          <strong className="text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">fojanbabaali@gmail.com</strong>
         </p>
         <div className="m-auto">
           <ContactIcon />

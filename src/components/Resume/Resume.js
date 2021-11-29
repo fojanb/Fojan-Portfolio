@@ -16,7 +16,7 @@ const Resume = () => {
         <div className="flex justify-center items-center text-center m-0 m-auto">Experiences</div>
         <div className="flex justify-center items-center text-center m-0 m-auto">Education </div>
         <div className="flex justify-center items-center text-center m-0 m-auto">Hobbies </div>
-        <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-auto text-sm w-28 mt-28 p-12 text-gray-300 transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out ">
+        <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-auto text-sm w-28 mt-28 p-12 text-gray-300 font-bold transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out ">
           <Link to="/about">Back</Link>
         </div>
       </div>
