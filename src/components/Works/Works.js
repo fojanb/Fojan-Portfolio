@@ -49,7 +49,7 @@ const Works = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
-            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-4">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-8">
               Food Reciepe App
             </header>
             <article className="pt-4 text-left">
@@ -71,7 +71,7 @@ const Works = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
-            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-4">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-8">
               Covid-API-Canada
             </header>
             <article className="pt-4 text-left">
