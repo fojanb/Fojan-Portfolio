@@ -4,8 +4,8 @@ const Work = (props) => {
   let { title, description, link } = props;
   return (
     <div className="flex items-center justify-center">
-      <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
-        <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-8">
+      <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-md">
+        <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-center text-center justify-center w-64 font-bold text-lg text-gray-300 p-8">
           {title}
         </header>
         <article className="pt-4 text-left text-gray-300">
