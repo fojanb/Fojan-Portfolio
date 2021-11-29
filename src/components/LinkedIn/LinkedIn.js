@@ -10,7 +10,7 @@ const LinkedIn = () => {
         </p>
         <a href="https://www.linkedin.com/in/fojanbabaali/" target="_blank">
           <span className="pt-8 font-bold text-greeny hover:text-lightGreeny transform hover:scale-100 hover:transition duration-500 ease-in-out">
-            my LinkedIn page
+            my LinkedIn
           </span>
         </a>
         <div className="mt-16">
