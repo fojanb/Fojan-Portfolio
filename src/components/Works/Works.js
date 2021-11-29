@@ -63,6 +63,78 @@ const Works = () => {
       widget by fetchig the API.`,
       link: `https://github.com/fojanb/weather-app`,
     },
+    {
+      title: "Face Detection",
+      description: `You can not live in 2020 and don't remember Covid-19 pandemeic! It
+      is almost 2022 and Yeah the whole world are still dealing with it!
+     
+      Since I live in Canada (Eh), I decided to follow up Covid-19 data
+      diagram every single day to see if there is a pick or not and in
+      general be updated with the all sort of rates (i.e. death rate). I
+      found the Canada-Covid-API and start to making a simple but enough
+      widget by fetchig the API.`,
+      link: `https://github.com/fojanb/face-detection`,
+    },
+    {
+      title: "Paint App",
+      description: `You can not live in 2020 and don't remember Covid-19 pandemeic! It
+      is almost 2022 and Yeah the whole world are still dealing with it!
+     
+      Since I live in Canada (Eh), I decided to follow up Covid-19 data
+      diagram every single day to see if there is a pick or not and in
+      general be updated with the all sort of rates (i.e. death rate). I
+      found the Canada-Covid-API and start to making a simple but enough
+      widget by fetchig the API.`,
+      link: `https://github.com/fojanb/paint-app`,
+    },
+    {
+      title: "Jane Doe Portfolio",
+      description: `You can not live in 2020 and don't remember Covid-19 pandemeic! It
+      is almost 2022 and Yeah the whole world are still dealing with it!
+     
+      Since I live in Canada (Eh), I decided to follow up Covid-19 data
+      diagram every single day to see if there is a pick or not and in
+      general be updated with the all sort of rates (i.e. death rate). I
+      found the Canada-Covid-API and start to making a simple but enough
+      widget by fetchig the API.`,
+      link: `https://github.com/fojanb/Jane-Doe-Portfolio`,
+    },
+    {
+      title: "Pixel Art Maker",
+      description: `You can not live in 2020 and don't remember Covid-19 pandemeic! It
+      is almost 2022 and Yeah the whole world are still dealing with it!
+     
+      Since I live in Canada (Eh), I decided to follow up Covid-19 data
+      diagram every single day to see if there is a pick or not and in
+      general be updated with the all sort of rates (i.e. death rate). I
+      found the Canada-Covid-API and start to making a simple but enough
+      widget by fetchig the API.`,
+      link: `https://github.com/fojanb/pixel-art-maker`,
+    },
+    {
+      title: "Candy Crush",
+      description: `You can not live in 2020 and don't remember Covid-19 pandemeic! It
+      is almost 2022 and Yeah the whole world are still dealing with it!
+     
+      Since I live in Canada (Eh), I decided to follow up Covid-19 data
+      diagram every single day to see if there is a pick or not and in
+      general be updated with the all sort of rates (i.e. death rate). I
+      found the Canada-Covid-API and start to making a simple but enough
+      widget by fetchig the API.`,
+      link: `https://github.com/fojanb/Candy-Crush`,
+    },
+    {
+      title: "A Full Feature Gallery",
+      description: `You can not live in 2020 and don't remember Covid-19 pandemeic! It
+      is almost 2022 and Yeah the whole world are still dealing with it!
+     
+      Since I live in Canada (Eh), I decided to follow up Covid-19 data
+      diagram every single day to see if there is a pick or not and in
+      general be updated with the all sort of rates (i.e. death rate). I
+      found the Canada-Covid-API and start to making a simple but enough
+      widget by fetchig the API.`,
+      link: `https://github.com/fojanb/full-feature-gallery`,
+    },
   ];
   return (
     <div className="grid grid-cols-1 grid-rows-1 w-screen pb-36 m-0 m-auto">
@@ -90,7 +162,6 @@ const Works = () => {
             description={work.description}
             link={work.link}
             key={index}
-            // key should be something unique that's why I used "index"
           />
         ))}
         {/* <div className="flex items-center justify-center ">
