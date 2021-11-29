@@ -1,6 +1,41 @@
 import React from "react";
 import WorksIcon from "../WorksIcon/WorksIcon";
+import Work from "../Work/Work";
 const Works = () => {
+  const myWorks = [
+    {
+      title: "My Personal Portfolio",
+      description: `Me, as a developer barely find a free time to cook. I know that you
+    maybe at the same boat as me.Anyway, it does not mean that I can not
+    make food applications! Honestly I am a food lover! so I thought that
+    by making a food reciepe application I can show my passion and love
+    about food in a new way not only by eating them.
+
+    So... here is what I made by using a public food reciepe API. What
+    technology have I used ? As usual the answer is React! How did I use
+    the API? fetch() function and that's it. So easy, right? Make sure to
+    chaeck out my GitHub account as well. All of my code projects lives
+    there. And tha last but not least, How did I style the food app?
+    Simply used CSS.`,
+      link: `https://github.com/fojanb/Food-Recipe-App`,
+    },
+    {
+      title: "My Personal Portfolio",
+      description: `Me, as a developer barely find a free time to cook. I know that you
+    maybe at the same boat as me.Anyway, it does not mean that I can not
+    make food applications! Honestly I am a food lover! so I thought that
+    by making a food reciepe application I can show my passion and love
+    about food in a new way not only by eating them.
+
+    So... here is what I made by using a public food reciepe API. What
+    technology have I used ? As usual the answer is React! How did I use
+    the API? fetch() function and that's it. So easy, right? Make sure to
+    chaeck out my GitHub account as well. All of my code projects lives
+    there. And tha last but not least, How did I style the food app?
+    Simply used CSS.`,
+      link: `https://github.com/fojanb/Food-Recipe-App`,
+    },
+  ];
   return (
     <div className="grid grid-cols-1 grid-rows-1 w-screen pb-36 m-0 m-auto">
       <p className="bg-blob2 bg-contain bg-center bg-no-repeat flex text-left items-center justify-center text-gray-300 font-bold text-3xl py-14 mt-10 relative z-40 mb-8 sm:bg-secondary sm:w-60 sm:m-auto sm:rounded-2xl sm:mt-8 sm:p-2 sm:text-sm sm:bg-none sm:shadow-2xl md:shadow-2xl md:bg-secondary md:w-60 md:m-auto md:mt-24 md:rounded-2xl md:p-2 md:text-xl md:bg-none lg:text-xl">
@@ -21,14 +56,15 @@ const Works = () => {
         </div>
       </p>
       <div className="grid grid-rows-1 grid-cols-1 gap-8 text-gray-100 w-1/2  m-auto py-8 lg:w-3/4 md:grid-cols-1 md:w-1/2 galaxy:w-3/4 sm:grid-cols-1 sm:gap-4 ">
-        <div className="flex items-center justify-center ">
+        <Work data={myWorks} />
+        {/* <div className="flex items-center justify-center ">
           <div className="bg-light w-max h-auto text-left p-4 rounded-xl shadow-2xl">
             <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg p-8 text-gray-300">
               My Personal Portfolio
             </header>
             <article className="pt-4 text-left text-gray-300">
               <strong>
-                This is one those projects that I geniunly made it with true
+                This is one of those projects that I geniunly made it with true
                 love.
               </strong>
               &nbsp;I have designed each pieces in figma, from icons, avatar and
@@ -341,7 +377,7 @@ const Works = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
         <div className="hidden sm:flex sm:items-center sm:justify-center md:flex md:items-center md:justify-center">
           <WorksIcon />
         </div>
