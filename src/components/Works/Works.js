@@ -21,8 +21,8 @@ const Works = () => {
       </p>
       <div className="grid grid-rows-1 grid-cols-1 gap-8 text-gray-100 w-1/2  m-auto py-8 lg:w-3/4 md:grid-cols-1 md:w-1/2 galaxy:w-3/4 sm:grid-cols-1 sm:gap-4 ">
         <div className="flex items-center justify-center ">
-          <div className="bg-light w-max h-auto text-left p-4 rounded-xl animate-pulse shadow-2xl">
-            <header className="font-bold text-lg p-8 border-b-2 border-opacity-30">
+          <div className="bg-light w-max h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg p-8 text-gray-300">
               My Personal Portfolio
             </header>
             <article className="pt-4 text-left">
@@ -48,8 +48,8 @@ const Works = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="bg-light w-full h-auto text-left p-4 rounded-xl animate-pulse shadow-2xl">
-            <header className="font-bold text-lg p-4 border-b-2 border-opacity-30">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-4">
               Food Reciepe App
             </header>
             <article className="pt-4 text-left">
@@ -70,8 +70,8 @@ const Works = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="bg-light w-full h-auto text-left p-4 rounded-xl animate-pulse shadow-2xl">
-            <header className="font-bold text-lg p-4 border-b-2 border-opacity-30">
+          <div className="bg-light w-full h-auto text-left p-4 rounded-xl shadow-2xl">
+            <header className="bg-blob6 bg-contain bg-center bg-no-repeat flex items-left w-64 font-bold text-lg text-gray-300 p-4">
               Covid-API-Canada
             </header>
             <article className="pt-4 text-left">

@@ -9,6 +9,7 @@ module.exports = {
         blob3: "url('./assets/blob3.png')",
         blob4: "url('./assets/blob4.png')",
         blob5: "url('./assets/btnBg.png')",
+        blob6: "url('./assets/work.png')",
       },
       zIndex: {
         "-100": "-100",
@@ -25,7 +26,7 @@ module.exports = {
       textColor: {
         main: "#292929",
         light: "#454464",
-        ruby: "#C22121",
+        dark: "#25253f",
       },
       screens: {
         lg: { max: "1200px" },
@@ -34,15 +35,13 @@ module.exports = {
         galaxy: { max: "540px" },
         sm: { max: "480px" },
       },
-      borderColor: theme => ({
-        'primary': '#663399',
-       })
+      borderColor: (theme) => ({
+        primary: "#663399",
+      }),
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [
-    require('tailwindcss-textshadow')
-  ],
+  plugins: [require("tailwindcss-textshadow")],
 };
