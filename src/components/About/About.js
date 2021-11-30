@@ -15,7 +15,7 @@ const About = () => {
     <div>
       <div className="grid grid-rows-1 grid-cols-2 text-gray-300 w-2/3 m-auto pt-14 pb-32 sm:grid-cols-1 sm:gap-4 md:grid-cols-1 md:gap-4 lg:gap-8 lg:grid-cols-1 lg:w-3/6">
         <p className="bg-blob4 bg-contain bg-center bg-no-repeat flex justify-center items-center text-center text-gray-300 font-bold text-3xl p-20 z-20 sm:bg-secondary sm:rounded-2xl sm:p-2 sm:text-sm sm:bg-none md:bg-secondary md:rounded-2xl md:p-2 md:text-xl md:bg-none lg:text-xl">
-          About Fojan
+          About Me
         </p>
 
         <p className="flex justify-center items-center text-left text-justify z-20 sm:mb-18 md:mb-18 galaxy:mb-18">

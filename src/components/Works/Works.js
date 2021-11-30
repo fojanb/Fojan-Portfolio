@@ -5,10 +5,10 @@ const Works = () => {
   const myWorks = [
     {
       title: "My Personal Portfolio",
-      description: `This is one of those projects that I geniunly made it with true
+      description: `This project is one of those projects that I geniunly made it with true
       love.
    
-    I have designed each pieces in figma, from icons, avatar and
+    I have designed each pieces from the scratch in the Figma, such as icons, avatar and SVG and PNG
     images as well as creating a unique and eye-pleasing color
     palette. 
     
@@ -41,14 +41,14 @@ const Works = () => {
     },
     {
       title: "Covid Widgets",
-      description: `You can not live in 2020 and don't remember Covid-19 pandemeic! It
+      description: `You could not live in 2020 and ignore Covid-19 pandemeic! It
       is almost 2022 and Yeah the whole world are still dealing with it!
      
       Since I live in Canada (Eh), I decided to follow up Covid-19 data
       diagram every single day to see if there is a pick or not and in
       general be updated with the all sort of rates (i.e. death rate). I
       found the Canada-Covid-API and start to making a simple but enough
-      widget by fetchig the API.`,
+      widget by fetchig its API.`,
       link: `https://github.com/fojanb/coronavirus-info-widgets`,
     },
     {
@@ -145,7 +145,7 @@ const Works = () => {
         <span>Works</span>
       </p>
       <p className="flex flex-col text-left items-center justify-center text-lg m-auto text-gray-300 px-14 py-8 relative z-40">
-        <div>Here you can find out some of my personal frontend projects.</div>
+        <div>Here you can find some of my personal frontend projects.</div>
         <div>
           I have mostly used React and public API on them. Make sure to checkout{" "}
           <a href="https://github.com/fojanb" target="_blank">
