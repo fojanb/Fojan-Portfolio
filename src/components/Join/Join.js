@@ -3,10 +3,6 @@ import Wall from "../Wall/Wall";
 
 const Join = () => {
   return (
-    <div className="grid grid-cols-3 w-1/2 m-0 m-auto">
-      <div className="flex justify-center items-center m-0 m-auto">
-        <Wall />
-      </div>
       <form
         action=""
         className="grid grid-cols-1 m-auto w-80 mt-10 mb-20 gap-6 rounded p-8 relative z-50 lg:mt-8 sm:gap-4 md:gap-4 sm:mt-10 sm:mb-10"
@@ -53,10 +49,6 @@ const Join = () => {
           Submit
         </button>
       </form>
-      <div className="flex justify-center items-center m-0 m-auto mb-10">
-        <Wall />
-      </div>
-    </div>
   );
 };
 
