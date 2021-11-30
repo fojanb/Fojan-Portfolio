@@ -34,9 +34,9 @@ const Footer = () => {
           <div className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out">
             <InstagramIcon />
           </div>
-          <div className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out">
+          <Link to="/fojan-linkedin" className="transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out">
             <LinkedInIcon />
-          </div>
+          </Link>
         </div>
       </div>
     </div>
