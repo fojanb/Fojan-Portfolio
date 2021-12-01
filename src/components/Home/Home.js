@@ -18,8 +18,8 @@ const Home = () => {
           Frontend Developer
         </p>
         <div className="flex m-auto text-base text-gray-300">
-          <FaMapMarkerAlt className="m-auto mt-5 text-red-400 opacity-70 sm:text-xs" />
-          <span className="italic text-gray-300 m-auto mt-4 mb-8 z-20 sm:text-sm">
+          <FaMapMarkerAlt className="m-auto mb-9 text-red-400 opacity-70 sm:text-xs" />
+          <span className="italic text-gray-300 m-auto  mb-8 z-20 sm:text-sm">
             Vancouver, CA
           </span>
         </div>
@@ -27,23 +27,19 @@ const Home = () => {
           <HomeIcon />
         </div>
       </div>
-      <div className="m-0 m-auto text-gray-100 text-justify sm:tracking-tighter	">
+      <div className="m-0 m-auto text-gray-100 text-lg text-justify sm:tracking-tighter	">
         <p>
-          Hey! It's me, Fojan. I'm a self-motivated frontend developer, located
-          in beautiful BC, Canada. If you're just curious about my story, or you
-          just want to grab my resume, you're in the right spot.Hey! It's me,
-          Fojan. I'm a self-motivated frontend developer, located in beautiful
-          BC, Canada. If you're just curious about my story, or you just want to
-          grab my resume, you're in the right spot.Hey! It's me, Fojan. I'm a
-          self-motivated frontend developer, located in beautiful BC, Canada. If
-          you're just curious about my story, or you just want to grab my
-          resume, you're in the right spot.Hey! It's me, Fojan.
+          I'm a web developer, web designer and animal lover from Vancouver, BC,
+          Canada. I use HTML, CSS and JavaScript. Though constantly changing, my
+          focus right now is React.js, Node.js and Next.js.
         </p>
         <br />
+        <div>I post contents on LinkedIn and code on GitHub.</div>
+        <div>Make sure to check them out and stay connected with me.</div>
+        <br />
         <p>
-          I'm a self-motivated frontend developer, located in beautiful BC,
-          Canada. If you're just curious about my story, or you just want to
-          grab my resume, you're in the right spot.Hey! It's me, Fojan..
+          I am here to help you achieve your dream website,So without further ado let's get
+          started and navigate through my website to know me better.
         </p>
       </div>
       <div className="flex flex-row flex-wrap text-gray-100 w-72 justify-between m-auto md:justify-evenly galaxy:justify-evenly sm:justify-evenly sm:w-40">

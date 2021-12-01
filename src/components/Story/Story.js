@@ -26,14 +26,26 @@ const Story = () => {
         <div>
           As I mentioned before, I am geniunly in love with graphic design. So I
           decided to start learning UI/UX as well.
-          <br /> <br />
-          And last but not least,I do the work I do because I love it. I like
-          the industry. I like the people I meet. I like the coding. I like to
-          make the web a better place. Hopefully we cross paths in the real
-          world someday and we can make it a better place together.
+          <br /> <br />I do the work I do because I love it. I like the
+          industry. I like the people I meet. I like the coding. I like to make
+          the web a better place. Hopefully we cross paths in the real world
+          someday and we can make it a better place together.
           <div className="flex justify-center m-0 m-auto items-center mt-20">
             <Vase />
           </div>
+        </div>
+        <div>
+          I live in a really cool city called Hamilton in its downtown core in a
+          super old house with my wife Kaitlin, two girls, one boy and a pup
+          named Snickers. We spend our summers at our cottage up in beautiful
+          Northern Ontario.
+        </div>
+        <div>
+          <strong>I have a few hobbies.</strong> I've rebuilt hundreds of
+          vintage road racing bikes. I like to fancy myself as a good cook, I’m
+          obsessed with cast iron cookware, smoking meat on my Big Green Egg and
+          have been known to make some pretty killer pulled pork. I've recently
+          dipped my toes into fermentation and curing.
         </div>
         <Link to="/about">
           <div className="bg-blob5 bg-contain bg-center bg-no-repeat flex justify-center items-center m-0 m-auto text-sm w-28 p-12 text-gray-300 font-bold transform hover:scale-110 hover:text-gray-100 hover:transition duration-500 ease-in-out lg:mb-10 sm:mb-10 md:mb-10 ">
